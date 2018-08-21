@@ -1,0 +1,6 @@
+workingDir=Z:\tester\six\out
+git=Z:\tester\six\rootGit\ant
+issue_tracker_product_name=Ant
+issue_tracker_url=bz.apache.org/bugzilla
+issue_tracker=bugzilla
+vers=(ANT_170,ANT_171_B1,ANT_180,ANT_182,ANT_183)

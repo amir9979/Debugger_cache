@@ -1,0 +1,14 @@
+Files
+0,1,2,3,4,5,6,7,8
+Bugged
+0
+BugsIds
+-1,51668,51462
+TestsCount
+10
+pack
+"['src\\main\\org\\apache\\tools\\ant\\types', 'src\\main\\org', 'src\\main\\org\\apache\\tools\\ant\\taskdefs\\optional\\jsp']"
+testsChoosedNames
+Trace_org.apache.tools.ant.IntrospectionHelperTest@testGetAddTextMethod_1511397912778,Trace_org.apache.tools.ant.taskdefs.optional.TraXLiaisonTest@testMultipleTransform_1511398093912,Trace_org.apache.tools.ant.types.XMLCatalogTest@testNestedCatalog_1511398178082,Trace_org.apache.tools.ant.filters.StripJavaCommentsTest@testStripJavaComments_1511397909169,Trace_org.apache.tools.ant.LocationTest@testStandaloneType_1511397912950,Trace_org.apache.tools.ant.taskdefs.optional.EchoPropertiesTest@testWithRegex_1511398082901,Trace_org.apache.tools.ant.taskdefs.JarTest@testManifestOnlyJar_1511398007485,Trace_org.apache.tools.ant.taskdefs.condition.XorTest@test11_1511397930544,Trace_org.apache.tools.ant.types.resources.JavaResourceTest@testIsURLProvider_1511398174489,Trace_org.apache.tools.ant.taskdefs.ZipTest@test6_1511398148542
+FileNames
+src\main\org\apache\tools\ant\taskdefs\optional\TraXLiaison.java,src\main\org\apache\tools\ant\AntClassLoader.java,src\main\org\apache\tools\ant\BuildException.java,src\main\org\apache\tools\ant\ProjectHelperRepository.java,src\main\org\apache\tools\ant\loader\AntClassLoader5.java,src\main\org\apache\tools\ant\taskdefs\AntlibDefinition.java,src\main\org\apache\tools\ant\taskdefs\optional\sos\SOS.java,src\main\org\apache\tools\ant\types\Resource.java,src\tests\junit\org\apache\tools\ant\ProjectHelperRepositoryTest.java

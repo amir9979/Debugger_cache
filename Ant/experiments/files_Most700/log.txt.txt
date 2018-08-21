@@ -1,0 +1,440 @@
+10_0.6_0.0_0.csv 
+probs. No.: 7
+tests: 9, comps: 7
+
+1) Diagnose: -->0, Probability: 0.9985340830771736
+2) Diagnose: -->5, Probability: 0.0010230881981674739
+3) Diagnose: -->6, Probability: 2.4846017761667076E-4
+4) Diagnose: -->1-->2, Probability: 1.6369411258426817E-4
+5) Diagnose: -->1-->3, Probability: 1.7264613414423158E-5
+6) Diagnose: -->1-->4, Probability: 1.3409821043538206E-5
+10_0.6_0.0_1.csv 
+probs. No.: 18
+tests: 11, comps: 18
+
+1) Diagnose: -->0, Probability: 0.9992503124337232
+2) Diagnose: -->9, Probability: 1.8221832789219115E-4
+3) Diagnose: -->5, Probability: 1.8221832789219115E-4
+4) Diagnose: -->11, Probability: 1.8221832789219115E-4
+5) Diagnose: -->4-->17, Probability: 1.6381152723331637E-4
+6) Diagnose: -->4-->16, Probability: 1.7276996990674038E-5
+7) Diagnose: -->3-->4, Probability: 1.097202919933019E-5
+8) Diagnose: -->1-->4, Probability: 1.0972029176907824E-5
+10_0.6_0.1_0.csv 
+probs. No.: 7
+tests: 9, comps: 7
+
+1) Diagnose: -->0, Probability: 0.9637990455526549
+2) Diagnose: -->1-->2, Probability: 0.019117981138108715
+3) Diagnose: -->5, Probability: 0.0108624892247886
+4) Diagnose: -->6, Probability: 0.0026379895760544722
+5) Diagnose: -->1-->3, Probability: 0.0020163495705672768
+6) Diagnose: -->1-->4, Probability: 0.0015661449378260354
+10_0.6_0.1_1.csv 
+probs. No.: 18
+tests: 11, comps: 18
+
+1) Diagnose: -->0, Probability: 0.9703056488322073
+2) Diagnose: -->4-->17, Probability: 0.019247046547900968
+3) Diagnose: -->4-->16, Probability: 0.002029961937988801
+4) Diagnose: -->9, Probability: 0.0019463413495295493
+5) Diagnose: -->5, Probability: 0.0019463413495295493
+6) Diagnose: -->11, Probability: 0.0019463413495295493
+7) Diagnose: -->3-->4, Probability: 0.0012891593179743376
+8) Diagnose: -->1-->4, Probability: 0.00128915931533982
+10_0.6_0.2_0.csv 
+probs. No.: 7
+tests: 9, comps: 7
+
+1) Diagnose: -->0, Probability: 0.8988084714988906
+2) Diagnose: -->1-->2, Probability: 0.06497943235975977
+3) Diagnose: -->5, Probability: 0.01933911667007186
+4) Diagnose: -->1-->3, Probability: 0.006853299497881424
+5) Diagnose: -->1-->4, Probability: 0.005323114837172319
+6) Diagnose: -->6, Probability: 0.004696565136223984
+10_0.6_0.2_1.csv 
+probs. No.: 18
+tests: 11, comps: 18
+
+1) Diagnose: -->0, Probability: 0.908188572816864
+2) Diagnose: -->4-->17, Probability: 0.06565756755590726
+3) Diagnose: -->4-->16, Probability: 0.0069248215692581435
+4) Diagnose: -->3-->4, Probability: 0.004397717062696997
+5) Diagnose: -->1-->4, Probability: 0.004397717053709851
+6) Diagnose: -->9, Probability: 0.0034778679805213225
+7) Diagnose: -->5, Probability: 0.0034778679805213225
+8) Diagnose: -->11, Probability: 0.0034778679805213225
+10_uniform_0.csv 
+probs. No.: 7
+tests: 9, comps: 7
+
+1) Diagnose: -->0, Probability: 0.8358288424961882
+2) Diagnose: -->1-->2, Probability: 0.08358288455822979
+3) Diagnose: -->5, Probability: 0.052239302568867996
+4) Diagnose: -->6, Probability: 0.012686478465962417
+5) Diagnose: -->1-->3, Probability: 0.008815382344415961
+6) Diagnose: -->1-->4, Probability: 0.0068471095663356915
+10_uniform_1.csv 
+probs. No.: 18
+tests: 11, comps: 18
+
+1) Diagnose: -->0, Probability: 0.8640699089172839
+2) Diagnose: -->4-->17, Probability: 0.08640699121076674
+3) Diagnose: -->9, Probability: 0.009611617523225757
+4) Diagnose: -->5, Probability: 0.009611617523225757
+5) Diagnose: -->11, Probability: 0.009611617523225757
+6) Diagnose: -->4-->16, Probability: 0.009113237342542733
+7) Diagnose: -->3-->4, Probability: 0.005787504985778443
+8) Diagnose: -->1-->4, Probability: 0.005787504973951136
+10_weka_randomForest0.csv 
+probs. No.: 7
+tests: 9, comps: 7
+
+1) Diagnose: -->5, Probability: 0.5628336806682206
+2) Diagnose: -->0, Probability: 0.4148332701288561
+3) Diagnose: -->1-->2, Probability: 0.012099303756765588
+4) Diagnose: -->6, Probability: 0.00760823764315702
+5) Diagnose: -->1-->3, Probability: 0.0014219382633361961
+6) Diagnose: -->1-->4, Probability: 0.0012035695396645444
+10_weka_randomForest1.csv 
+probs. No.: 18
+tests: 11, comps: 18
+
+1) Diagnose: -->0, Probability: 0.9915763430754702
+2) Diagnose: -->5, Probability: 0.003715353396678695
+3) Diagnose: -->11, Probability: 0.0014098439228468261
+4) Diagnose: -->4-->17, Probability: 0.0013568939481659315
+5) Diagnose: -->9, Probability: 0.001293739129200617
+6) Diagnose: -->4-->16, Probability: 3.192451803028324E-4
+7) Diagnose: -->3-->4, Probability: 1.7477731257940687E-4
+8) Diagnose: -->1-->4, Probability: 1.5380403475556508E-4
+20_0.6_0.0_0.csv 
+probs. No.: 11
+tests: 14, comps: 11
+
+1) Diagnose: -->0, Probability: 0.999426307096229
+2) Diagnose: -->8, Probability: 5.662323498352973E-4
+3) Diagnose: -->4-->9, Probability: 2.4868198504474768E-6
+4) Diagnose: -->1-->5, Probability: 1.8224873799312723E-6
+5) Diagnose: -->1-->4-->10, Probability: 1.6384037912162729E-6
+6) Diagnose: -->3-->4, Probability: 8.89882194661629E-7
+7) Diagnose: -->4-->7-->10, Probability: 4.0960094783892034E-7
+8) Diagnose: -->1-->4-->9, Probability: 1.0973748391408943E-7
+9) Diagnose: -->1-->4-->6, Probability: 8.041726478837954E-8
+10) Diagnose: -->5-->7-->10, Probability: 2.320502290049867E-8
+20_0.6_0.0_1.csv 
+probs. No.: 25
+tests: 21, comps: 25
+
+1) Diagnose: -->0, Probability: 0.9999714670081806
+2) Diagnose: -->15-->24, Probability: 2.428588883323543E-5
+3) Diagnose: -->3-->15, Probability: 1.1921211325098444E-6
+4) Diagnose: -->15-->23, Probability: 1.1921211321021731E-6
+5) Diagnose: -->1-->15, Probability: 1.0516281122565783E-6
+6) Diagnose: -->10-->15, Probability: 8.112326090945642E-7
+20_0.6_0.1_0.csv 
+probs. No.: 11
+tests: 14, comps: 11
+
+1) Diagnose: -->0, Probability: 0.9902233288947363
+2) Diagnose: -->8, Probability: 0.006171201680811788
+3) Diagnose: -->1-->4-->10, Probability: 0.002160634849298767
+4) Diagnose: -->4-->7-->10, Probability: 5.401587123706528E-4
+5) Diagnose: -->4-->9, Probability: 2.9813438829419934E-4
+6) Diagnose: -->1-->5, Probability: 2.1849035831523485E-4
+7) Diagnose: -->1-->4-->9, Probability: 1.447156270574367E-4
+8) Diagnose: -->3-->4, Probability: 1.0668423919473124E-4
+9) Diagnose: -->1-->4-->6, Probability: 1.0604976973232833E-4
+10) Diagnose: -->5-->7-->10, Probability: 3.0601480188454416E-5
+20_0.6_0.1_1.csv 
+probs. No.: 25
+tests: 21, comps: 25
+
+1) Diagnose: -->0, Probability: 0.9965592888438696
+2) Diagnose: -->15-->24, Probability: 0.00292856526138408
+3) Diagnose: -->3-->15, Probability: 1.4375444769608092E-4
+4) Diagnose: -->15-->23, Probability: 1.43754447646921E-4
+5) Diagnose: -->1-->15, Probability: 1.2681279975369298E-4
+6) Diagnose: -->10-->15, Probability: 9.782419964984287E-5
+20_0.6_0.2_0.csv 
+probs. No.: 11
+tests: 14, comps: 11
+
+1) Diagnose: -->0, Probability: 0.9660469451833771
+2) Diagnose: -->1-->4-->10, Probability: 0.014666493129486317
+3) Diagnose: -->8, Probability: 0.011493741546233133
+4) Diagnose: -->4-->7-->10, Probability: 0.0036666232826835653
+5) Diagnose: -->4-->9, Probability: 0.0010600598101987437
+6) Diagnose: -->1-->4-->9, Probability: 9.823366269668594E-4
+7) Diagnose: -->1-->5, Probability: 7.768739765013204E-4
+8) Diagnose: -->1-->4-->6, Probability: 7.19870930373819E-4
+9) Diagnose: -->3-->4, Probability: 3.79331196910989E-4
+10) Diagnose: -->5-->7-->10, Probability: 2.0772431726802035E-4
+20_0.6_0.2_1.csv 
+probs. No.: 25
+tests: 21, comps: 25
+
+1) Diagnose: -->0, Probability: 0.9875729660097726
+2) Diagnose: -->15-->24, Probability: 0.010577284286410886
+3) Diagnose: -->3-->15, Probability: 5.192070263098076E-4
+4) Diagnose: -->15-->23, Probability: 5.192070261322535E-4
+5) Diagnose: -->1-->15, Probability: 4.5801780545487106E-4
+6) Diagnose: -->10-->15, Probability: 3.533178459195354E-4
+20_uniform_0.csv 
+probs. No.: 11
+tests: 14, comps: 11
+
+1) Diagnose: -->0, Probability: 0.9509901808721396
+2) Diagnose: -->8, Probability: 0.03286622080956931
+3) Diagnose: -->1-->4-->10, Probability: 0.009509901861490706
+4) Diagnose: -->4-->7-->10, Probability: 0.0023774754655749714
+5) Diagnose: -->4-->9, Probability: 0.0014434422607998427
+6) Diagnose: -->1-->5, Probability: 0.0010578391126698698
+7) Diagnose: -->1-->4-->9, Probability: 6.369569627125876E-4
+8) Diagnose: -->3-->4, Probability: 5.165205540227519E-4
+9) Diagnose: -->1-->4-->6, Probability: 4.667715615692516E-4
+10) Diagnose: -->5-->7-->10, Probability: 1.3469053945094106E-4
+20_uniform_1.csv 
+probs. No.: 25
+tests: 21, comps: 25
+
+1) Diagnose: -->0, Probability: 0.9828921511009121
+2) Diagnose: -->15-->24, Probability: 0.014561365284501342
+3) Diagnose: -->3-->15, Probability: 7.147735622545331E-4
+4) Diagnose: -->15-->23, Probability: 7.147735620101009E-4
+5) Diagnose: -->1-->15, Probability: 6.305365717174192E-4
+6) Diagnose: -->10-->15, Probability: 4.863999186045572E-4
+20_weka_randomForest0.csv 
+probs. No.: 11
+tests: 14, comps: 11
+
+1) Diagnose: -->0, Probability: 0.5700375564487404
+2) Diagnose: -->8, Probability: 0.4276649784142196
+3) Diagnose: -->3-->4, Probability: 0.0012714652591372642
+4) Diagnose: -->4-->9, Probability: 4.6000895475570465E-4
+5) Diagnose: -->1-->5, Probability: 2.0607742475689764E-4
+6) Diagnose: -->1-->4-->10, Probability: 1.6721101748613118E-4
+7) Diagnose: -->4-->7-->10, Probability: 1.1704771225025119E-4
+8) Diagnose: -->1-->4-->6, Probability: 4.360057190146429E-5
+9) Diagnose: -->1-->4-->9, Probability: 2.0299108221996E-5
+10) Diagnose: -->5-->7-->10, Probability: 1.1755088530166344E-5
+20_weka_randomForest1.csv 
+probs. No.: 25
+tests: 21, comps: 25
+
+1) Diagnose: -->0, Probability: 0.9998502461216209
+2) Diagnose: -->15-->24, Probability: 1.0134934326452894E-4
+3) Diagnose: -->10-->15, Probability: 2.0312509720621446E-5
+4) Diagnose: -->15-->23, Probability: 1.1097929669678289E-5
+5) Diagnose: -->3-->15, Probability: 9.567180752994366E-6
+6) Diagnose: -->1-->15, Probability: 7.426914971351829E-6
+30_0.6_0.0_0.csv 
+probs. No.: 18
+tests: 24, comps: 18
+
+1) Diagnose: -->0, Probability: 0.9996403012710328
+2) Diagnose: -->15, Probability: 3.5967178385307223E-4
+3) Diagnose: -->3-->7-->10-->17, Probability: 1.6387524418559344E-8
+4) Diagnose: -->3-->7-->11, Probability: 5.2229473526492515E-9
+5) Diagnose: -->3-->5-->7, Probability: 4.530589142082608E-9
+6) Diagnose: -->3-->7-->10-->16, Probability: 8.040530269645363E-10
+30_0.6_0.0_1.csv 
+probs. No.: 31
+tests: 30, comps: 31
+
+1) Diagnose: -->0, Probability: 0.9999797039671192
+2) Diagnose: -->20-->30, Probability: 1.7289608228399974E-5
+3) Diagnose: -->20-->29, Probability: 8.486947908814919E-7
+4) Diagnose: -->3-->20, Probability: 6.698348466893216E-7
+5) Diagnose: -->1-->20, Probability: 5.089750868725669E-7
+6) Diagnose: -->11-->20, Probability: 4.952965235800527E-7
+7) Diagnose: -->15, Probability: 4.836234041183598E-7
+30_0.6_0.1_0.csv 
+probs. No.: 18
+tests: 24, comps: 18
+
+1) Diagnose: -->0, Probability: 0.9957951629865739
+2) Diagnose: -->15, Probability: 0.003941171283161255
+3) Diagnose: -->3-->7-->10-->17, Probability: 2.3900684999983782E-4
+4) Diagnose: -->3-->7-->10-->16, Probability: 1.172685857236531E-5
+5) Diagnose: -->3-->7-->11, Probability: 6.925002895150983E-6
+6) Diagnose: -->3-->5-->7, Probability: 6.007018797489424E-6
+30_0.6_0.1_1.csv 
+probs. No.: 31
+tests: 30, comps: 31
+
+1) Diagnose: -->0, Probability: 0.9976030888182285
+2) Diagnose: -->20-->30, Probability: 0.0020870705145979622
+3) Diagnose: -->20-->29, Probability: 1.0244800521460774E-4
+4) Diagnose: -->3-->20, Probability: 8.085738784289986E-5
+5) Diagnose: -->1-->20, Probability: 6.143961635474118E-5
+6) Diagnose: -->11-->20, Probability: 5.978844382655311E-5
+7) Diagnose: -->15, Probability: 5.3072139348944114E-6
+30_0.6_0.2_0.csv 
+probs. No.: 18
+tests: 24, comps: 18
+
+1) Diagnose: -->0, Probability: 0.9891286614426928
+2) Diagnose: -->15, Probability: 0.0074736833469477935
+3) Diagnose: -->3-->7-->10-->17, Probability: 0.0031535488324641358
+4) Diagnose: -->3-->7-->10-->16, Probability: 1.547287082331731E-4
+5) Diagnose: -->3-->7-->11, Probability: 4.7861087452816996E-5
+6) Diagnose: -->3-->5-->7, Probability: 4.151658220947048E-5
+30_0.6_0.2_1.csv 
+probs. No.: 31
+tests: 30, comps: 31
+
+1) Diagnose: -->0, Probability: 0.9913282508345783
+2) Diagnose: -->20-->30, Probability: 0.00755875100611858
+3) Diagnose: -->20-->29, Probability: 3.710363196041454E-4
+4) Diagnose: -->3-->20, Probability: 2.9284150077093726E-4
+5) Diagnose: -->1-->20, Probability: 2.225160859149981E-4
+6) Diagnose: -->11-->20, Probability: 2.165360282593414E-4
+7) Diagnose: -->15, Probability: 1.0068224753634331E-5
+30_uniform_0.csv 
+probs. No.: 18
+tests: 24, comps: 18
+
+1) Diagnose: -->0, Probability: 0.9774631645429326
+2) Diagnose: -->15, Probability: 0.021453237824929226
+3) Diagnose: -->3-->7-->10-->17, Probability: 9.774618819051006E-4
+4) Diagnose: -->3-->7-->10-->16, Probability: 4.795911602109704E-5
+5) Diagnose: -->3-->7-->11, Probability: 3.115316150272203E-5
+6) Diagnose: -->3-->5-->7, Probability: 2.7023472709175665E-5
+30_uniform_1.csv 
+probs. No.: 31
+tests: 30, comps: 31
+
+1) Diagnose: -->0, Probability: 0.9880297071872955
+2) Diagnose: -->20-->30, Probability: 0.010420625896092169
+3) Diagnose: -->20-->29, Probability: 5.115171378615236E-4
+4) Diagnose: -->3-->20, Probability: 4.037163975786412E-4
+5) Diagnose: -->1-->20, Probability: 3.067645547929724E-4
+6) Diagnose: -->11-->20, Probability: 2.985203430685463E-4
+7) Diagnose: -->15, Probability: 2.9148483310534853E-5
+30_weka_randomForest0.csv 
+probs. No.: 18
+tests: 24, comps: 18
+
+1) Diagnose: -->0, Probability: 0.6772828333411977
+2) Diagnose: -->15, Probability: 0.32269259290586433
+3) Diagnose: -->3-->5-->7, Probability: 1.1184783362406408E-5
+4) Diagnose: -->3-->7-->10-->17, Probability: 7.802288001829695E-6
+5) Diagnose: -->3-->7-->11, Probability: 4.892822404541012E-6
+6) Diagnose: -->3-->7-->10-->16, Probability: 6.938591692594449E-7
+30_weka_randomForest1.csv 
+probs. No.: 31
+tests: 30, comps: 31
+
+1) Diagnose: -->0, Probability: 0.9998948004195689
+2) Diagnose: -->20-->30, Probability: 7.215523798883403E-5
+3) Diagnose: -->11-->20, Probability: 1.2402214577166793E-5
+4) Diagnose: -->20-->29, Probability: 7.901124280515698E-6
+5) Diagnose: -->3-->20, Probability: 5.375849529604868E-6
+6) Diagnose: -->15, Probability: 3.7704878841664405E-6
+7) Diagnose: -->1-->20, Probability: 3.5946661710478797E-6
+40_0.6_0.0_0.csv 
+probs. No.: 18
+tests: 24, comps: 18
+
+1) Diagnose: -->0, Probability: 0.9996403012710328
+2) Diagnose: -->15, Probability: 3.5967178385307223E-4
+3) Diagnose: -->3-->7-->10-->17, Probability: 1.6387524418559344E-8
+4) Diagnose: -->3-->7-->11, Probability: 5.2229473526492515E-9
+5) Diagnose: -->3-->5-->7, Probability: 4.530589142082608E-9
+6) Diagnose: -->3-->7-->10-->16, Probability: 8.040530269645363E-10
+40_0.6_0.0_1.csv 
+probs. No.: 34
+tests: 34, comps: 34
+
+1) Diagnose: -->0, Probability: 0.9999802241089305
+2) Diagnose: -->22-->33, Probability: 1.7289617221630644E-5
+3) Diagnose: -->3-->22, Probability: 6.059905358309943E-7
+4) Diagnose: -->22-->32, Probability: 6.059863121473494E-7
+5) Diagnose: -->1-->22, Probability: 4.480817818247482E-7
+6) Diagnose: -->12-->22, Probability: 4.285866100591653E-7
+7) Diagnose: -->17, Probability: 3.9762860820821666E-7
+40_0.6_0.1_0.csv 
+probs. No.: 18
+tests: 24, comps: 18
+
+1) Diagnose: -->0, Probability: 0.9957951629865739
+2) Diagnose: -->15, Probability: 0.003941171283161255
+3) Diagnose: -->3-->7-->10-->17, Probability: 2.3900684999983782E-4
+4) Diagnose: -->3-->7-->10-->16, Probability: 1.172685857236531E-5
+5) Diagnose: -->3-->7-->11, Probability: 6.925002895150983E-6
+6) Diagnose: -->3-->5-->7, Probability: 6.007018797489424E-6
+40_0.6_0.1_1.csv 
+probs. No.: 34
+tests: 34, comps: 34
+
+1) Diagnose: -->0, Probability: 0.9976563156303295
+2) Diagnose: -->22-->33, Probability: 0.002087181869616173
+3) Diagnose: -->3-->22, Probability: 7.315445121382234E-5
+4) Diagnose: -->22-->32, Probability: 7.315394133579475E-5
+5) Diagnose: -->1-->22, Probability: 5.409189568175527E-5
+6) Diagnose: -->12-->22, Probability: 5.173846191092132E-5
+7) Diagnose: -->17, Probability: 4.363749911839388E-6
+40_0.6_0.2_0.csv 
+probs. No.: 18
+tests: 24, comps: 18
+
+1) Diagnose: -->0, Probability: 0.9891286614426928
+2) Diagnose: -->15, Probability: 0.0074736833469477935
+3) Diagnose: -->3-->7-->10-->17, Probability: 0.0031535488324641358
+4) Diagnose: -->3-->7-->10-->16, Probability: 1.547287082331731E-4
+5) Diagnose: -->3-->7-->11, Probability: 4.7861087452816996E-5
+6) Diagnose: -->3-->5-->7, Probability: 4.151658220947048E-5
+40_0.6_0.2_1.csv 
+probs. No.: 34
+tests: 34, comps: 34
+
+1) Diagnose: -->0, Probability: 0.9915182228314634
+2) Diagnose: -->22-->33, Probability: 0.007560199518275255
+3) Diagnose: -->3-->22, Probability: 2.6498038090381505E-4
+4) Diagnose: -->22-->32, Probability: 2.649785340213393E-4
+5) Diagnose: -->1-->22, Probability: 1.9593190685917826E-4
+6) Diagnose: -->12-->22, Probability: 1.8740728851155748E-4
+7) Diagnose: -->17, Probability: 8.279539965389206E-6
+40_uniform_0.csv 
+probs. No.: 18
+tests: 24, comps: 18
+
+1) Diagnose: -->0, Probability: 0.9774631645429326
+2) Diagnose: -->15, Probability: 0.021453237824929226
+3) Diagnose: -->3-->7-->10-->17, Probability: 9.774618819051006E-4
+4) Diagnose: -->3-->7-->10-->16, Probability: 4.795911602109704E-5
+5) Diagnose: -->3-->7-->11, Probability: 3.115316150272203E-5
+6) Diagnose: -->3-->5-->7, Probability: 2.7023472709175665E-5
+40_uniform_1.csv 
+probs. No.: 34
+tests: 34, comps: 34
+
+1) Diagnose: -->0, Probability: 0.9882934372284036
+2) Diagnose: -->22-->33, Probability: 0.010423407423890326
+3) Diagnose: -->3-->22, Probability: 3.653340712532174E-4
+4) Diagnose: -->22-->32, Probability: 3.6533152491717666E-4
+5) Diagnose: -->1-->22, Probability: 2.7013547560433447E-4
+6) Diagnose: -->12-->22, Probability: 2.5838240348558526E-4
+7) Diagnose: -->17, Probability: 2.3971872445871344E-5
+40_weka_randomForest0.csv 
+probs. No.: 18
+tests: 24, comps: 18
+
+1) Diagnose: -->0, Probability: 0.6772828333411977
+2) Diagnose: -->15, Probability: 0.32269259290586433
+3) Diagnose: -->3-->5-->7, Probability: 1.1184783362406408E-5
+4) Diagnose: -->3-->7-->10-->17, Probability: 7.802288001829695E-6
+5) Diagnose: -->3-->7-->11, Probability: 4.892822404541012E-6
+6) Diagnose: -->3-->7-->10-->16, Probability: 6.938591692594449E-7
+40_weka_randomForest1.csv 
+probs. No.: 34
+tests: 34, comps: 34
+
+1) Diagnose: -->0, Probability: 0.9999003427455879
+2) Diagnose: -->22-->33, Probability: 7.215563793876151E-5
+3) Diagnose: -->12-->22, Probability: 1.0731853642939235E-5
+4) Diagnose: -->22-->32, Probability: 5.641600802576675E-6
+5) Diagnose: -->3-->22, Probability: 4.863482865649162E-6
+6) Diagnose: -->1-->22, Probability: 3.164619555463391E-6
+7) Diagnose: -->17, Probability: 3.1000596068415615E-6

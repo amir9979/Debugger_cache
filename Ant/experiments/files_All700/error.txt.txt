@@ -1,0 +1,130 @@
+10_0.6_0.0_0.csv 
+10_0.6_0.0_1.csv 
+10_0.6_0.0_2.csv 
+10_0.6_0.1_0.csv 
+10_0.6_0.1_1.csv 
+10_0.6_0.1_2.csv 
+10_0.6_0.2_0.csv 
+10_0.6_0.2_1.csv 
+10_0.6_0.2_2.csv 
+10_uniform_0.csv 
+10_uniform_1.csv 
+10_uniform_2.csv 
+10_weka_randomForest0.csv 
+10_weka_randomForest1.csv 
+10_weka_randomForest2.csv 
+20_0.6_0.0_0.csv 
+20_0.6_0.0_1.csv 
+Exception in thread "main" java.lang.NullPointerException
+	at Diagnoser.St_Strip.update_ochiai_ranks(St_Strip.java:177)
+	at Diagnoser.St_Strip.strip(St_Strip.java:289)
+	at Diagnoser.Staccato.run(Staccato.java:253)
+	at Diagnoser.Staccato.run(Staccato.java:255)
+	at Diagnoser.Staccato.run(Staccato.java:255)
+	at Diagnoser.Staccato.run(Staccato.java:255)
+	at Diagnoser.Staccato.run(Staccato.java:255)
+	at Diagnoser.Staccato.run(Staccato.java:255)
+	at Diagnoser.Staccato.run(Staccato.java:255)
+	at Diagnoser.Staccato.run(Staccato.java:255)
+	at Diagnoser.Staccato.run(Staccato.java:289)
+	at Diagnoser.Barinel.run(Barinel.java:149)
+	at Amir.Runner.main(Runner.java:122)
+20_0.6_0.0_2.csv 
+20_0.6_0.1_0.csv 
+20_0.6_0.1_1.csv 
+Exception in thread "main" java.lang.NullPointerException
+	at Diagnoser.St_Strip.update_ochiai_ranks(St_Strip.java:177)
+	at Diagnoser.St_Strip.strip(St_Strip.java:289)
+	at Diagnoser.Staccato.run(Staccato.java:253)
+	at Diagnoser.Staccato.run(Staccato.java:255)
+	at Diagnoser.Staccato.run(Staccato.java:255)
+	at Diagnoser.Staccato.run(Staccato.java:255)
+	at Diagnoser.Staccato.run(Staccato.java:255)
+	at Diagnoser.Staccato.run(Staccato.java:255)
+	at Diagnoser.Staccato.run(Staccato.java:255)
+	at Diagnoser.Staccato.run(Staccato.java:255)
+	at Diagnoser.Staccato.run(Staccato.java:289)
+	at Diagnoser.Barinel.run(Barinel.java:149)
+	at Amir.Runner.main(Runner.java:122)
+20_0.6_0.1_2.csv 
+20_0.6_0.2_0.csv 
+20_0.6_0.2_1.csv 
+Exception in thread "main" java.lang.NullPointerException
+	at Diagnoser.St_Strip.update_ochiai_ranks(St_Strip.java:177)
+	at Diagnoser.St_Strip.strip(St_Strip.java:289)
+	at Diagnoser.Staccato.run(Staccato.java:253)
+	at Diagnoser.Staccato.run(Staccato.java:255)
+	at Diagnoser.Staccato.run(Staccato.java:255)
+	at Diagnoser.Staccato.run(Staccato.java:255)
+	at Diagnoser.Staccato.run(Staccato.java:255)
+	at Diagnoser.Staccato.run(Staccato.java:255)
+	at Diagnoser.Staccato.run(Staccato.java:255)
+	at Diagnoser.Staccato.run(Staccato.java:255)
+	at Diagnoser.Staccato.run(Staccato.java:289)
+	at Diagnoser.Barinel.run(Barinel.java:149)
+	at Amir.Runner.main(Runner.java:122)
+20_0.6_0.2_2.csv 
+20_uniform_0.csv 
+20_uniform_1.csv 
+Exception in thread "main" java.lang.NullPointerException
+	at Diagnoser.St_Strip.update_ochiai_ranks(St_Strip.java:177)
+	at Diagnoser.St_Strip.strip(St_Strip.java:289)
+	at Diagnoser.Staccato.run(Staccato.java:253)
+	at Diagnoser.Staccato.run(Staccato.java:255)
+	at Diagnoser.Staccato.run(Staccato.java:255)
+	at Diagnoser.Staccato.run(Staccato.java:255)
+	at Diagnoser.Staccato.run(Staccato.java:255)
+	at Diagnoser.Staccato.run(Staccato.java:255)
+	at Diagnoser.Staccato.run(Staccato.java:255)
+	at Diagnoser.Staccato.run(Staccato.java:255)
+	at Diagnoser.Staccato.run(Staccato.java:289)
+	at Diagnoser.Barinel.run(Barinel.java:149)
+	at Amir.Runner.main(Runner.java:122)
+20_uniform_2.csv 
+20_weka_randomForest0.csv 
+20_weka_randomForest1.csv 
+Exception in thread "main" java.lang.NullPointerException
+	at Diagnoser.St_Strip.update_ochiai_ranks(St_Strip.java:177)
+	at Diagnoser.St_Strip.strip(St_Strip.java:289)
+	at Diagnoser.Staccato.run(Staccato.java:253)
+	at Diagnoser.Staccato.run(Staccato.java:255)
+	at Diagnoser.Staccato.run(Staccato.java:255)
+	at Diagnoser.Staccato.run(Staccato.java:255)
+	at Diagnoser.Staccato.run(Staccato.java:255)
+	at Diagnoser.Staccato.run(Staccato.java:255)
+	at Diagnoser.Staccato.run(Staccato.java:255)
+	at Diagnoser.Staccato.run(Staccato.java:255)
+	at Diagnoser.Staccato.run(Staccato.java:289)
+	at Diagnoser.Barinel.run(Barinel.java:149)
+	at Amir.Runner.main(Runner.java:122)
+20_weka_randomForest2.csv 
+30_0.6_0.0_0.csv 
+30_0.6_0.0_1.csv 
+30_0.6_0.0_2.csv 
+30_0.6_0.1_0.csv 
+30_0.6_0.1_1.csv 
+30_0.6_0.1_2.csv 
+30_0.6_0.2_0.csv 
+30_0.6_0.2_1.csv 
+30_0.6_0.2_2.csv 
+30_uniform_0.csv 
+30_uniform_1.csv 
+30_uniform_2.csv 
+30_weka_randomForest0.csv 
+30_weka_randomForest1.csv 
+30_weka_randomForest2.csv 
+40_0.6_0.0_0.csv 
+40_0.6_0.0_1.csv 
+40_0.6_0.0_2.csv 
+40_0.6_0.1_0.csv 
+40_0.6_0.1_1.csv 
+40_0.6_0.1_2.csv 
+40_0.6_0.2_0.csv 
+40_0.6_0.2_1.csv 
+40_0.6_0.2_2.csv 
+40_uniform_0.csv 
+40_uniform_1.csv 
+40_uniform_2.csv 
+40_weka_randomForest0.csv 
+40_weka_randomForest1.csv 
+40_weka_randomForest2.csv 

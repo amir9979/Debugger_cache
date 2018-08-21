@@ -1,0 +1,14 @@
+Files
+0,1,2,3,4,5,6,7,8,9,10,11,12,13
+Bugged
+0,1
+BugsIds
+-1,51947,51668
+TestsCount
+11
+pack
+"['src\\main\\org\\apache\\tools\\ant\\taskdefs\\optional', 'src\\main', 'src\\main\\org\\apache\\tools']"
+testsChoosedNames
+Trace_org.apache.tools.ant.DirectoryScannerTest@testAlternateExcludeInclude_1511397905481,Trace_org.apache.tools.ant.filters.ReplaceTokensTest@testReplaceTokens_1511397909075,Trace_org.apache.tools.ant.taskdefs.XmlnsTest@testOther_1511398147557,Trace_org.apache.tools.ant.util.VectorSetTest@testAdd_1511398183428,Trace_org.apache.tools.ant.taskdefs.optional.sos.SOSTest@testGetExceptions_1511398093584,Trace_org.apache.tools.ant.types.PermissionsTest@testGrantedAndRevoked_1511398173223,Trace_org.apache.tools.ant.filters.TokenFilterTest@testDosLineOutput_1511397910185,Trace_org.apache.tools.ant.AntClassLoaderTest@testJarWithManifestInNonAsciiDir_1511397902810,Trace_org.apache.tools.ant.DirectoryScannerTest@testPatternsDifferInCaseScanningSensitive_1511397903544,Trace_org.apache.tools.ant.taskdefs.optional.vss.MSVSSTest@testLabelExceptions_1511398095022,Trace_org.apache.tools.ant.taskdefs.optional.SchemaValidateTest@testNoNamespace_1511398092397
+FileNames
+src\main\org\apache\tools\ant\taskdefs\Javac.java,src\main\org\apache\tools\ant\taskdefs\optional\TraXLiaison.java,src\main\org\apache\tools\ant\BuildException.java,src\main\org\apache\tools\ant\Location.java,src\main\org\apache\tools\ant\PathTokenizer.java,src\main\org\apache\tools\ant\taskdefs\Delete.java,src\main\org\apache\tools\ant\taskdefs\Property.java,src\main\org\apache\tools\ant\types\AbstractFileSet.java,src\main\org\apache\tools\ant\types\Path.java,src\main\org\apache\tools\ant\types\PatternSet.java,src\main\org\apache\tools\ant\types\resources\BaseResourceCollectionContainer.java,src\main\org\apache\tools\ant\types\resources\FileResourceIterator.java,src\main\org\apache\tools\ant\types\resources\Union.java,src\tests\junit\org\apache\tools\ant\ProjectHelperRepositoryTest.java
