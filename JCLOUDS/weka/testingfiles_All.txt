@@ -1,0 +1,32 @@
+
+RandomForest
+
+Bagging with 1000 iterations and base learner
+
+weka.classifiers.trees.RandomTree -K 0 -M 1.0 -V 0.001 -S 1 -do-not-check-capabilities
+
+
+=== Error on test data ===
+
+Correctly Classified Instances        5254               99.6775 %
+Incorrectly Classified Instances        17                0.3225 %
+Kappa statistic                          0     
+Mean absolute error                      0.0032
+Root mean squared error                  0.0557
+Total Number of Instances             5271     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.000    0.000    0.000      0.000    0.000      0.000    0.614     0.140     bugged
+                 1.000    1.000    0.997      1.000    0.998      0.000    0.614     0.998     valid
+Weighted Avg.    0.997    0.997    0.994      0.997    0.995      0.000    0.614     0.995     
+
+
+=== Confusion Matrix ===
+
+    a    b   <-- classified as
+    0   17 |    a = bugged
+    0 5254 |    b = valid
+

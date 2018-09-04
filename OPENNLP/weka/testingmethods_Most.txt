@@ -8,12 +8,12 @@ weka.classifiers.trees.RandomTree -K 0 -M 1.0 -V 0.001 -S 1 -do-not-check-capabi
 
 === Error on test data ===
 
-Correctly Classified Instances        3207              100      %
+Correctly Classified Instances        3225              100      %
 Incorrectly Classified Instances         0                0      %
 Kappa statistic                          1     
 Mean absolute error                      0     
 Root mean squared error                  0     
-Total Number of Instances             3207     
+Total Number of Instances             3225     
 
 
 === Detailed Accuracy By Class ===
@@ -28,5 +28,5 @@ Weighted Avg.    1.000    0.000    1.000      1.000    1.000      0.000    0.000
 
     a    b   <-- classified as
     0    0 |    a = bugged
-    0 3207 |    b = valid
+    0 3225 |    b = valid
 

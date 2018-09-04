@@ -1,0 +1,66 @@
+
+Options: -I 1000 -K 0 -S 1 -num-slots 1 
+
+RandomForest
+
+Bagging with 1000 iterations and base learner
+
+weka.classifiers.trees.RandomTree -K 0 -M 1.0 -V 0.001 -S 1 -do-not-check-capabilities
+
+Time taken to build model: 33.67 seconds
+Time taken to test model on training data: 1.92 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances        3570               97.541  %
+Incorrectly Classified Instances        90                2.459  %
+Kappa statistic                          0.832 
+Mean absolute error                      0.0432
+Root mean squared error                  0.1254
+Relative absolute error                 28.2722 %
+Root relative squared error             45.3758 %
+Total Number of Instances             3660     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.807    0.009    0.888      0.807    0.845      0.833    0.996     0.959     bugged
+                 0.991    0.193    0.983      0.991    0.987      0.833    0.996     1.000     valid
+Weighted Avg.    0.975    0.178    0.975      0.975    0.975      0.833    0.996     0.996     
+
+
+=== Confusion Matrix ===
+
+    a    b   <-- classified as
+  246   59 |    a = bugged
+   31 3324 |    b = valid
+
+
+
+=== Stratified cross-validation ===
+
+Correctly Classified Instances        3353               91.612  %
+Incorrectly Classified Instances       307                8.388  %
+Kappa statistic                          0.4226
+Mean absolute error                      0.0899
+Root mean squared error                  0.2351
+Relative absolute error                 58.7718 %
+Root relative squared error             85.0783 %
+Total Number of Instances             3660     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.443    0.041    0.496      0.443    0.468      0.423    0.949     0.508     bugged
+                 0.959    0.557    0.950      0.959    0.954      0.423    0.949     0.995     valid
+Weighted Avg.    0.916    0.514    0.912      0.916    0.914      0.423    0.949     0.955     
+
+
+=== Confusion Matrix ===
+
+    a    b   <-- classified as
+  135  170 |    a = bugged
+  137 3218 |    b = valid
+
