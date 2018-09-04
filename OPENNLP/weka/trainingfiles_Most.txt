@@ -7,60 +7,60 @@ Bagging with 1000 iterations and base learner
 
 weka.classifiers.trees.RandomTree -K 0 -M 1.0 -V 0.001 -S 1 -do-not-check-capabilities
 
-Time taken to build model: 18.58 seconds
-Time taken to test model on training data: 1.36 seconds
+Time taken to build model: 16.12 seconds
+Time taken to test model on training data: 1.19 seconds
 
 === Error on training data ===
 
-Correctly Classified Instances        2868               99.8955 %
-Incorrectly Classified Instances         3                0.1045 %
-Kappa statistic                          0.9841
-Mean absolute error                      0.0165
-Root mean squared error                  0.0599
-Relative absolute error                 24.7376 %
-Root relative squared error             32.8111 %
+Correctly Classified Instances        2871              100      %
+Incorrectly Classified Instances         0                0      %
+Kappa statistic                          1     
+Mean absolute error                      0.0047
+Root mean squared error                  0.0325
+Relative absolute error                 30.2655 %
+Root relative squared error             37.2802 %
 Total Number of Instances             2871     
 
 
 === Detailed Accuracy By Class ===
 
                  TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
-                 0.970    0.000    1.000      0.970    0.985      0.984    1.000     0.999     bugged
-                 1.000    0.030    0.999      1.000    0.999      0.984    1.000     1.000     valid
-Weighted Avg.    0.999    0.029    0.999      0.999    0.999      0.984    1.000     1.000     
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     bugged
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     valid
+Weighted Avg.    1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     
 
 
 === Confusion Matrix ===
 
     a    b   <-- classified as
-   96    3 |    a = bugged
-    0 2772 |    b = valid
+   22    0 |    a = bugged
+    0 2849 |    b = valid
 
 
 
 === Stratified cross-validation ===
 
-Correctly Classified Instances        2786               97.0394 %
-Incorrectly Classified Instances        85                2.9606 %
-Kappa statistic                          0.3761
-Mean absolute error                      0.0442
-Root mean squared error                  0.1534
-Relative absolute error                 66.0024 %
-Root relative squared error             84.0448 %
+Correctly Classified Instances        2844               99.0596 %
+Incorrectly Classified Instances        27                0.9404 %
+Kappa statistic                         -0.0028
+Mean absolute error                      0.0133
+Root mean squared error                  0.0902
+Relative absolute error                 85.2924 %
+Root relative squared error            103.4877 %
 Total Number of Instances             2871     
 
 
 === Detailed Accuracy By Class ===
 
                  TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
-                 0.273    0.005    0.675      0.273    0.388      0.417    0.936     0.493     bugged
-                 0.995    0.727    0.975      0.995    0.985      0.417    0.936     0.997     valid
-Weighted Avg.    0.970    0.702    0.964      0.970    0.964      0.417    0.936     0.980     
+                 0.000    0.002    0.000      0.000    0.000      -0.004   0.895     0.077     bugged
+                 0.998    1.000    0.992      0.998    0.995      -0.004   0.895     0.999     valid
+Weighted Avg.    0.991    0.992    0.985      0.991    0.988      -0.004   0.895     0.992     
 
 
 === Confusion Matrix ===
 
     a    b   <-- classified as
-   27   72 |    a = bugged
-   13 2759 |    b = valid
+    0   22 |    a = bugged
+    5 2844 |    b = valid
 

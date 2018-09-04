@@ -1,0 +1,53 @@
+[Description]
+sample bug id 1321 with bug_passing_probability = 0.05 with garnularity of files and bugged type most
+[Components names]
+[(0, 'org.apache.myfaces.tobago.convert.durationconverterunittest'), (1, 'org.apache.myfaces.tobago.layout.pixelmeasure'), (2, 'org.apache.myfaces.tobago.internal.mock.servlet.mockservletinputstream'), (3, 'org.apache.myfaces.tobago.model.treepathunittest'), (4, 'org.apache.myfaces.tobago.internal.layout.origincell'), (5, 'org.apache.myfaces.tobago.layout.measure'), (6, 'org.apache.myfaces.tobago.config.tobagoconfig'), (7, 'org.apache.myfaces.tobago.context.useragentunittest'), (8, 'org.apache.myfaces.tobago.internal.component.abstractuimessages'), (9, 'org.apache.myfaces.tobago.internal.config.tobagoconfigparserunittest'), (10, 'org.apache.myfaces.tobago.internal.config.tobagoconfigversion'), (11, 'org.apache.myfaces.tobago.webapp.tobagoresponsewriterunittest'), (12, 'org.apache.myfaces.tobago.internal.component.abstractuisheet'), (13, 'org.apache.myfaces.tobago.internal.layout.mathutilsunittest'), (14, 'org.apache.myfaces.tobago.model.expandedstateunittest'), (15, 'org.apache.myfaces.tobago.context.markupunittest'), (16, 'org.apache.myfaces.tobago.model.treepath'), (17, 'org.apache.myfaces.tobago.util.localeutils'), (18, 'org.apache.myfaces.tobago.internal.webapp.htmlresponsewriter'), (19, 'org.apache.myfaces.tobago.internal.layout.spancell'), (20, 'org.apache.myfaces.tobago.internal.util.responsewriterbuffer'), (21, 'org.apache.myfaces.tobago.internal.webapp.xmlresponsewriter'), (22, 'org.apache.myfaces.tobago.component.uimessagesunittest'), (23, 'org.apache.myfaces.tobago.renderkit.labelwithaccesskeyunittest'), (24, 'org.apache.myfaces.tobago.context.resourceutils'), (25, 'org.apache.myfaces.tobago.internal.component.abstractuidata'), (26, 'org.apache.myfaces.tobago.internal.layout.grid'), (27, 'org.apache.myfaces.tobago.convert.durationconverter'), (28, 'org.apache.myfaces.tobago.component.uisheetunittest'), (29, 'org.apache.myfaces.tobago.internal.mock.faces.mocktheme'), (30, 'org.apache.myfaces.tobago.util.componentutils'), (31, 'org.apache.myfaces.tobago.internal.config.tobagoconfigimpl'), (32, 'org.apache.myfaces.tobago.util.variableresolverutils'), (33, 'org.apache.myfaces.tobago.context.useragent'), (34, 'org.apache.myfaces.tobago.internal.config.tobagoconfigparser'), (35, 'org.apache.myfaces.tobago.internal.webapp.tobagoresponsewriterbase'), (36, 'org.apache.myfaces.tobago.model.expandedstate'), (37, 'org.apache.myfaces.tobago.internal.config.tobagoconfigfragment'), (38, 'org.apache.myfaces.tobago.renderkit.labelwithaccesskey'), (39, 'org.apache.myfaces.tobago.internal.config.tobagoconfigsorterunittest'), (40, 'org.apache.myfaces.tobago.util.localeutilsunittest'), (41, 'org.apache.myfaces.tobago.internal.config.tobagoconfigsorter'), (42, 'org.apache.myfaces.tobago.internal.util.jndiutils'), (43, 'org.apache.myfaces.tobago.context.markup'), (44, 'org.apache.myfaces.tobago.internal.layout.mathutils')]
+[Priors]
+[0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.094, 0.015, 0.01, 0.07, 0.015, 0.018, 0.097, 0.01, 0.022, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.582, 0.013, 0.01, 0.01, 0.01, 0.253, 0.151, 0.01, 0.128, 0.242, 0.305, 0.01, 0.088, 0.01, 0.01, 0.01, 0.075, 0.01, 0.012, 0.01]
+[Bugs]
+[7, 33]
+[InitialTests]
+[u'org.apache.myfaces.tobago.internal.config.tobagoconfigsorterunittest@testcompare', u'org.apache.myfaces.tobago.model.mixedtreemodelunittest@testlifecyclesmall', u'org.apache.myfaces.tobago.component.uisheetunittest@teststriprowindex', u'org.apache.myfaces.tobago.internal.layout.mathutilsunittest@testiszero', u'org.apache.myfaces.tobago.internal.context.responsewriterdividerunittest@test', u'org.apache.myfaces.tobago.util.localeutilsunittest@testlocalelist', u'org.apache.myfaces.tobago.internal.layout.mathutilsunittest@testadjust111', u'org.apache.myfaces.tobago.webapp.tobagoresponsewriterunittest@testchararray', u'org.apache.myfaces.tobago.model.expandedstateunittest@test', u'org.apache.myfaces.tobago.webapp.tobagoresponsewriterunittest@testdocument', u'org.apache.myfaces.tobago.renderkit.css.classesunittest@testfull', u'org.apache.myfaces.tobago.component.uisheetunittest@test5rowsperpage', u'org.apache.myfaces.tobago.internal.config.tobagoconfigparserunittest@testfailparserforunknownversion', u'org.apache.myfaces.tobago.webapp.tobagoresponsewriterunittest@testtextquoting', u'org.apache.myfaces.tobago.model.mixedtreemodelunittest@testlifecyclefrommodel', u'org.apache.myfaces.tobago.model.treepathunittest@testgetpathstring', u'org.apache.myfaces.tobago.component.uisheetunittest@testcurrentpagerows5', u'org.apache.myfaces.tobago.component.uisheetunittest@testgetcurrentpageonunknown', u'org.apache.myfaces.tobago.renderkit.labelwithaccesskeyunittest@testwithkeylastletter', u'org.apache.myfaces.tobago.layout.intervallistunittest@test3minprefmax', u'org.apache.myfaces.tobago.context.markupunittest@testremove', u'org.apache.myfaces.tobago.convert.durationconverterunittest@testformat', u'org.apache.myfaces.tobago.layout.grid.gridunittest@test1x1', u'org.apache.myfaces.tobago.layout.intervallistunittest@test6squeeze', u'org.apache.myfaces.tobago.component.uisheetunittest@testlastrowindexofcurrentpage', u'org.apache.myfaces.tobago.component.uimessagesunittest@testcreatemessagelistforid0', u'org.apache.myfaces.tobago.renderkit.css.classesunittest@testmixed', u'org.apache.myfaces.tobago.context.resourceutilsunittest@testcreatestring', u'org.apache.myfaces.tobago.context.markupunittest@testmarkup', u'org.apache.myfaces.tobago.context.markupunittest@testobject', u'org.apache.myfaces.tobago.convert.durationconverterunittest@testparse', u'org.apache.myfaces.tobago.webapp.tobagomultipartformdatarequestunittest@testgetparametervalues', u'org.apache.myfaces.tobago.component.uisheetunittest@test9rowsperpage', u'org.apache.myfaces.tobago.renderkit.html.scarborough.standard.tag.treenoderendererunittest@testconstants', u'org.apache.myfaces.tobago.renderkit.css.classesunittest@testdisabledreadonly', u'org.apache.myfaces.tobago.internal.layout.mathutilsunittest@testisnotzero', u'org.apache.myfaces.tobago.internal.layout.mathutilsunittest@testadjust', u'org.apache.myfaces.tobago.renderkit.labelwithaccesskeyunittest@testwithkeyfirstletter', u'org.apache.myfaces.tobago.layout.intervallistunittest@test5squeeze', u'org.apache.myfaces.tobago.webapp.tobagoresponsewriterunittest@testnonutf8', u'org.apache.myfaces.tobago.renderkit.labelwithaccesskeyunittest@testampersand', u'org.apache.myfaces.tobago.component.uimessagesunittest@testcreatemessagelisterrortofatal']
+[TestDetails]
+org.apache.myfaces.tobago.internal.config.tobagoconfigsorterunittest@testcompare;[6, 29, 31, 33, 37, 39, 41, 42];1
+org.apache.myfaces.tobago.model.mixedtreemodelunittest@testlifecyclesmall;[16];0
+org.apache.myfaces.tobago.component.uisheetunittest@teststriprowindex;[6, 12, 28, 29, 31, 33, 42];1
+org.apache.myfaces.tobago.internal.layout.mathutilsunittest@testiszero;[13, 44];0
+org.apache.myfaces.tobago.internal.context.responsewriterdividerunittest@test;[21, 35];0
+org.apache.myfaces.tobago.util.localeutilsunittest@testlocalelist;[17, 40];0
+org.apache.myfaces.tobago.internal.layout.mathutilsunittest@testadjust111;[13, 44];0
+org.apache.myfaces.tobago.webapp.tobagoresponsewriterunittest@testchararray;[11, 35];0
+org.apache.myfaces.tobago.model.expandedstateunittest@test;[14, 16, 36];0
+org.apache.myfaces.tobago.webapp.tobagoresponsewriterunittest@testdocument;[11, 18, 35];0
+org.apache.myfaces.tobago.renderkit.css.classesunittest@testfull;[6, 29, 31, 33, 42];1
+org.apache.myfaces.tobago.component.uisheetunittest@test5rowsperpage;[6, 12, 25, 28, 29, 31, 33, 42];1
+org.apache.myfaces.tobago.internal.config.tobagoconfigparserunittest@testfailparserforunknownversion;[9, 10, 34];0
+org.apache.myfaces.tobago.webapp.tobagoresponsewriterunittest@testtextquoting;[11, 18, 20, 35];0
+org.apache.myfaces.tobago.model.mixedtreemodelunittest@testlifecyclefrommodel;[16];0
+org.apache.myfaces.tobago.model.treepathunittest@testgetpathstring;[3, 6, 16, 29, 31, 33, 42];1
+org.apache.myfaces.tobago.component.uisheetunittest@testcurrentpagerows5;[6, 12, 25, 28, 29, 31, 33, 42];1
+org.apache.myfaces.tobago.component.uisheetunittest@testgetcurrentpageonunknown;[6, 12, 25, 28, 29, 31, 33, 42];1
+org.apache.myfaces.tobago.renderkit.labelwithaccesskeyunittest@testwithkeylastletter;[23, 38];0
+org.apache.myfaces.tobago.layout.intervallistunittest@test3minprefmax;[1, 5];0
+org.apache.myfaces.tobago.context.markupunittest@testremove;[15, 43];0
+org.apache.myfaces.tobago.convert.durationconverterunittest@testformat;[0, 27];0
+org.apache.myfaces.tobago.layout.grid.gridunittest@test1x1;[4, 19, 26];0
+org.apache.myfaces.tobago.layout.intervallistunittest@test6squeeze;[1, 5];0
+org.apache.myfaces.tobago.component.uisheetunittest@testlastrowindexofcurrentpage;[6, 12, 25, 28, 29, 31, 33, 42];1
+org.apache.myfaces.tobago.component.uimessagesunittest@testcreatemessagelistforid0;[6, 8, 22, 29, 31, 33, 42];1
+org.apache.myfaces.tobago.renderkit.css.classesunittest@testmixed;[6, 29, 30, 31, 32, 33, 42, 43];1
+org.apache.myfaces.tobago.context.resourceutilsunittest@testcreatestring;[7, 24];0
+org.apache.myfaces.tobago.context.markupunittest@testmarkup;[15];0
+org.apache.myfaces.tobago.context.markupunittest@testobject;[15, 43];0
+org.apache.myfaces.tobago.convert.durationconverterunittest@testparse;[0, 27];0
+org.apache.myfaces.tobago.webapp.tobagomultipartformdatarequestunittest@testgetparametervalues;[2];0
+org.apache.myfaces.tobago.component.uisheetunittest@test9rowsperpage;[6, 12, 25, 28, 29, 31, 33, 42];1
+org.apache.myfaces.tobago.renderkit.html.scarborough.standard.tag.treenoderendererunittest@testconstants;[24];0
+org.apache.myfaces.tobago.renderkit.css.classesunittest@testdisabledreadonly;[6, 29, 30, 31, 32, 33, 42, 43];1
+org.apache.myfaces.tobago.internal.layout.mathutilsunittest@testisnotzero;[13, 44];0
+org.apache.myfaces.tobago.internal.layout.mathutilsunittest@testadjust;[13, 44];0
+org.apache.myfaces.tobago.renderkit.labelwithaccesskeyunittest@testwithkeyfirstletter;[23, 38];0
+org.apache.myfaces.tobago.layout.intervallistunittest@test5squeeze;[1, 5];0
+org.apache.myfaces.tobago.webapp.tobagoresponsewriterunittest@testnonutf8;[11, 18, 20, 35];0
+org.apache.myfaces.tobago.renderkit.labelwithaccesskeyunittest@testampersand;[23, 38];0
+org.apache.myfaces.tobago.component.uimessagesunittest@testcreatemessagelisterrortofatal;[6, 8, 22, 29, 31, 33, 42];1

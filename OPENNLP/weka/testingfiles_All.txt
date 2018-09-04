@@ -8,25 +8,25 @@ weka.classifiers.trees.RandomTree -K 0 -M 1.0 -V 0.001 -S 1 -do-not-check-capabi
 
 === Error on test data ===
 
-Correctly Classified Instances         947               98.9551 %
-Incorrectly Classified Instances        10                1.0449 %
-Kappa statistic                          0.1616
-Mean absolute error                      0.0587
-Root mean squared error                  0.1251
+Correctly Classified Instances         651               68.0251 %
+Incorrectly Classified Instances       306               31.9749 %
+Kappa statistic                          0     
+Mean absolute error                      0.3144
+Root mean squared error                  0.5521
 Total Number of Instances              957     
 
 
 === Detailed Accuracy By Class ===
 
                  TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
-                 0.200    0.006    0.143      0.200    0.167      0.164    0.899     0.136     bugged
-                 0.994    0.800    0.996      0.994    0.995      0.164    0.899     0.999     valid
-Weighted Avg.    0.990    0.796    0.991      0.990    0.990      0.164    0.899     0.995     
+                 0.000    0.000    0.000      0.000    0.000      0.000    0.785     0.611     bugged
+                 1.000    1.000    0.680      1.000    0.810      0.000    0.785     0.852     valid
+Weighted Avg.    0.680    0.680    0.463      0.680    0.551      0.000    0.785     0.775     
 
 
 === Confusion Matrix ===
 
    a   b   <-- classified as
-   1   4 |   a = bugged
-   6 946 |   b = valid
+   0 306 |   a = bugged
+   0 651 |   b = valid
 

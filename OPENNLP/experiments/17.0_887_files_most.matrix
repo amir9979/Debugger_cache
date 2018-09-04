@@ -1,0 +1,60 @@
+[Description]
+sample bug id 887 with bug_passing_probability = 0.05 with garnularity of files and bugged type most
+[Components names]
+[(0, 'opennlp.tools.util.featuregen.identityfeaturegenerator'), (1, 'opennlp.tools.util.eval.crossvalidationpartitioner'), (2, 'opennlp.tools.util.ext.extensionloader'), (3, 'opennlp.tools.util.sequencetest'), (4, 'opennlp.tools.util.plaintextbylinestreamtest'), (5, 'opennlp.tools.util.stringlisttest'), (6, 'opennlp.tools.util.spantest'), (7, 'opennlp.tools.util.featuregen.aggregatedfeaturegenerator'), (8, 'opennlp.tools.util.sequence'), (9, 'opennlp.tools.util.featuregen.stringpatterntest'), (10, 'opennlp.tools.util.featuregen.windowfeaturegenerator'), (11, 'opennlp.tools.util.eval.fmeasure'), (12, 'opennlp.tools.util.eval.crossvalidationpartitionertest'), (13, 'opennlp.tools.util.featuregen.previousmapfeaturegeneratortest'), (14, 'opennlp.tools.util.stringutiltest'), (15, 'opennlp.tools.util.collectionobjectstream'), (16, 'opennlp.tools.util.featuregen.previousmapfeaturegenerator'), (17, 'opennlp.tools.util.cache'), (18, 'opennlp.tools.util.span'), (19, 'opennlp.tools.util.stringlist'), (20, 'opennlp.tools.util.version'), (21, 'opennlp.tools.util.featuregen.cachedfeaturegeneratortest'), (22, 'opennlp.tools.util.abstracteventstreamtest'), (23, 'opennlp.tools.util.plaintextbylinestream'), (24, 'opennlp.tools.util.featuregen.cachedfeaturegenerator'), (25, 'opennlp.tools.util.versiontest'), (26, 'opennlp.tools.util.stringutil'), (27, 'opennlp.tools.util.featuregen.generatorfactory'), (28, 'opennlp.tools.util.eval.fmeasuretest'), (29, 'opennlp.tools.util.featuregen.windowfeaturegeneratortest'), (30, 'opennlp.tools.util.featuregen.stringpattern'), (31, 'opennlp.tools.util.featuregen.generatorfactorytest')]
+[Priors]
+[0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.016, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.144, 0.01, 0.01, 0.01, 0.01]
+[Bugs]
+[17]
+[InitialTests]
+['opennlp.tools.util.spantest@testgetend', 'opennlp.tools.util.stringutiltest@testnobreakspace', 'opennlp.tools.util.featuregen.generatorfactorytest@testcreationwithcustomgenerator', 'opennlp.tools.util.featuregen.stringpatterntest@testcontainsdigit', 'opennlp.tools.util.sequencetest@testtostring', 'opennlp.tools.util.beamsearchtest@testbestsequencewithvalidator', 'opennlp.tools.util.stringutiltest@testisemptywithnullstring', 'opennlp.tools.util.featuregen.windowfeaturegeneratortest@testforcorrectfeatures', 'opennlp.tools.util.featuregen.cachedfeaturegeneratortest@testcachingofsentence', 'opennlp.tools.util.eval.crossvalidationpartitionertest@test3foldcv', 'opennlp.tools.util.featuregen.stringpatterntest@testisinitialcapitalletter', 'opennlp.tools.util.beamsearchtest@testbestsequenceoneelementinput', 'opennlp.tools.util.spantest@testcomparetoequalsdifftype1', 'opennlp.tools.util.sequencetest@testaddmethod', 'opennlp.tools.util.stringutiltest@testtouppercase', 'opennlp.tools.util.spantest@testcrosses', 'opennlp.tools.util.spantest@testcontainsint', 'opennlp.tools.util.featuregen.generatorfactorytest@testcreationwithunkownelement', 'opennlp.tools.util.featuregen.stringpatterntest@testisallcapitalletter', 'opennlp.tools.util.versiontest@testparsesnapshot', 'opennlp.tools.util.featuregen.windowfeaturegeneratortest@testwindowatendofsentence', 'opennlp.tools.util.sequencetest@testcopyconstructor', 'opennlp.tools.util.stringlisttest@testcomparetoignorecase', 'opennlp.tools.util.spantest@testtostring', 'opennlp.tools.util.abstracteventstreamtest@testemtpyeventstream', 'opennlp.tools.util.spantest@testequals', 'opennlp.tools.util.eval.fmeasuretest@testperfect', 'opennlp.tools.util.featuregen.cachedfeaturegeneratortest@testcacheclearaftersentencechange', 'opennlp.tools.util.versiontest@testparse', 'opennlp.tools.util.spantest@testcomparetoequalsnulltype2', 'opennlp.tools.util.stringlisttest@testequals', 'opennlp.tools.util.eval.fmeasuretest@testprecision', 'opennlp.tools.util.featuregen.previousmapfeaturegeneratortest@testfeaturegeneration', 'opennlp.tools.util.spantest@testcontainswithequal', 'opennlp.tools.util.spantest@testcomparetoequalssametype', 'opennlp.tools.util.featuregen.windowfeaturegeneratortest@testwindowsizeone', 'opennlp.tools.util.spantest@testcomparetohigher', 'opennlp.tools.util.plaintextbylinestreamtest@testlinesegmentation', 'opennlp.tools.util.featuregen.stringpatterntest@testcontainsslash', 'opennlp.tools.util.spantest@testtrim', 'opennlp.tools.util.featuregen.stringpatterntest@testcontainscomma', 'opennlp.tools.util.stringlisttest@testgettoken', 'opennlp.tools.util.eval.crossvalidationpartitionertest@testfailsafty', 'opennlp.tools.util.beamsearchtest@testbestsequence', 'opennlp.tools.util.spantest@testlength', 'opennlp.tools.util.featuregen.stringpatterntest@testdigits', 'opennlp.tools.util.sequencetest@testcompareto', 'opennlp.tools.util.eval.fmeasuretest@testrecall', 'opennlp.tools.util.featuregen.stringpatterntest@testcontainsperiod']
+[TestDetails]
+opennlp.tools.util.spantest@testgetend;[6, 18];0
+opennlp.tools.util.stringutiltest@testnobreakspace;[14, 26];0
+opennlp.tools.util.featuregen.generatorfactorytest@testcreationwithcustomgenerator;[2, 7, 27, 31];0
+opennlp.tools.util.featuregen.stringpatterntest@testcontainsdigit;[9, 30];0
+opennlp.tools.util.sequencetest@testtostring;[3, 8];0
+opennlp.tools.util.beamsearchtest@testbestsequencewithvalidator;[8];0
+opennlp.tools.util.stringutiltest@testisemptywithnullstring;[14, 26];0
+opennlp.tools.util.featuregen.windowfeaturegeneratortest@testforcorrectfeatures;[0, 10, 29];0
+opennlp.tools.util.featuregen.cachedfeaturegeneratortest@testcachingofsentence;[0, 7, 17, 21, 24];1
+opennlp.tools.util.eval.crossvalidationpartitionertest@test3foldcv;[1, 12, 15];0
+opennlp.tools.util.featuregen.stringpatterntest@testisinitialcapitalletter;[9, 30];0
+opennlp.tools.util.beamsearchtest@testbestsequenceoneelementinput;[8];0
+opennlp.tools.util.spantest@testcomparetoequalsdifftype1;[6, 18];0
+opennlp.tools.util.sequencetest@testaddmethod;[3, 8];0
+opennlp.tools.util.stringutiltest@testtouppercase;[14, 26];0
+opennlp.tools.util.spantest@testcrosses;[6, 18];0
+opennlp.tools.util.spantest@testcontainsint;[6];0
+opennlp.tools.util.featuregen.generatorfactorytest@testcreationwithunkownelement;[27, 31];0
+opennlp.tools.util.featuregen.stringpatterntest@testisallcapitalletter;[9, 30];0
+opennlp.tools.util.versiontest@testparsesnapshot;[20, 25];0
+opennlp.tools.util.featuregen.windowfeaturegeneratortest@testwindowatendofsentence;[0, 10, 29];0
+opennlp.tools.util.sequencetest@testcopyconstructor;[3, 8];0
+opennlp.tools.util.stringlisttest@testcomparetoignorecase;[5, 19];0
+opennlp.tools.util.spantest@testtostring;[6, 18];0
+opennlp.tools.util.abstracteventstreamtest@testemtpyeventstream;[15, 22];0
+opennlp.tools.util.spantest@testequals;[6, 18];0
+opennlp.tools.util.eval.fmeasuretest@testperfect;[11, 18, 28];0
+opennlp.tools.util.featuregen.cachedfeaturegeneratortest@testcacheclearaftersentencechange;[0, 7, 17, 21, 24];1
+opennlp.tools.util.versiontest@testparse;[20, 25];0
+opennlp.tools.util.spantest@testcomparetoequalsnulltype2;[6, 18];0
+opennlp.tools.util.stringlisttest@testequals;[5, 19];0
+opennlp.tools.util.eval.fmeasuretest@testprecision;[11, 18, 28];0
+opennlp.tools.util.featuregen.previousmapfeaturegeneratortest@testfeaturegeneration;[13, 16];0
+opennlp.tools.util.spantest@testcontainswithequal;[6, 18];0
+opennlp.tools.util.spantest@testcomparetoequalssametype;[6, 18];0
+opennlp.tools.util.featuregen.windowfeaturegeneratortest@testwindowsizeone;[0, 10, 29];0
+opennlp.tools.util.spantest@testcomparetohigher;[6, 18];0
+opennlp.tools.util.plaintextbylinestreamtest@testlinesegmentation;[4, 23];0
+opennlp.tools.util.featuregen.stringpatterntest@testcontainsslash;[9, 30];0
+opennlp.tools.util.spantest@testtrim;[6, 18, 26];0
+opennlp.tools.util.featuregen.stringpatterntest@testcontainscomma;[9, 30];0
+opennlp.tools.util.stringlisttest@testgettoken;[5, 19];0
+opennlp.tools.util.eval.crossvalidationpartitionertest@testfailsafty;[1, 12, 15];0
+opennlp.tools.util.beamsearchtest@testbestsequence;[8];0
+opennlp.tools.util.spantest@testlength;[6, 18];0
+opennlp.tools.util.featuregen.stringpatterntest@testdigits;[9, 30];0
+opennlp.tools.util.sequencetest@testcompareto;[3, 8];0
+opennlp.tools.util.eval.fmeasuretest@testrecall;[11, 18, 28];0
+opennlp.tools.util.featuregen.stringpatterntest@testcontainsperiod;[9, 30];0
