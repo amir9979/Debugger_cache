@@ -1,1 +1,1 @@
-0.277653344617, 0.108007212773
+{"only_passed_comps": 215.68, "num_failed_tests": 2.94, "num_distinct_traces": 50.0, "only_failed_comps": 21.900000000000013, "num_tests": 50.0, "recall": 0.12589854819315496, "precision": 0.2867972852192466, "num_failed_comps": 27.4, "num_comps": 243.08, "component_entropy": 2.335222073904786, "entropy": 3.0095364381311027, "num_bugs": 4.64, "wasted": Infinity, "top_k": 3.42}
