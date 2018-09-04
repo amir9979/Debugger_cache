@@ -1,0 +1,60 @@
+[Description]
+sample bug id 760 with bug_passing_probability = 0.05 with garnularity of files and bugged type all
+[Components names]
+[(0, 'opennlp.tools.util.featuregen.identityfeaturegenerator'), (1, 'opennlp.tools.util.eval.crossvalidationpartitioner'), (2, 'opennlp.tools.util.sequencetest'), (3, 'opennlp.tools.util.stringlisttest'), (4, 'opennlp.tools.util.spantest'), (5, 'opennlp.tools.util.featuregen.aggregatedfeaturegenerator'), (6, 'opennlp.tools.util.sequence'), (7, 'opennlp.tools.util.featuregen.stringpatterntest'), (8, 'opennlp.tools.util.featuregen.windowfeaturegenerator'), (9, 'opennlp.tools.util.eval.fmeasure'), (10, 'opennlp.tools.util.eval.crossvalidationpartitionertest'), (11, 'opennlp.tools.util.featuregen.previousmapfeaturegeneratortest'), (12, 'opennlp.tools.util.stringutiltest'), (13, 'opennlp.tools.util.collectionobjectstream'), (14, 'opennlp.tools.util.featuregen.previousmapfeaturegenerator'), (15, 'opennlp.tools.util.cache'), (16, 'opennlp.tools.util.span'), (17, 'opennlp.tools.util.stringlist'), (18, 'opennlp.tools.util.version'), (19, 'opennlp.tools.util.featuregen.cachedfeaturegeneratortest'), (20, 'opennlp.tools.util.abstracteventstreamtest'), (21, 'opennlp.tools.util.featuregen.cachedfeaturegenerator'), (22, 'opennlp.tools.util.versiontest'), (23, 'opennlp.tools.util.stringutil'), (24, 'opennlp.tools.util.featuregen.generatorfactory'), (25, 'opennlp.tools.util.eval.fmeasuretest'), (26, 'opennlp.tools.util.featuregen.windowfeaturegeneratortest'), (27, 'opennlp.tools.util.featuregen.stringpattern'), (28, 'opennlp.tools.util.featuregen.generatorfactorytest')]
+[Priors]
+[0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.064, 0.01, 0.01, 0.024, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.177, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.359, 0.01, 0.01, 0.01, 0.01]
+[Bugs]
+[12, 23]
+[InitialTests]
+['opennlp.tools.util.spantest@testcomparetoequalsnulltype2', 'opennlp.tools.util.eval.crossvalidationpartitionertest@test3foldcv', 'opennlp.tools.util.featuregen.generatorfactorytest@testcreationwihtsimpledescriptor', 'opennlp.tools.util.beamsearchtest@testbestsequenceoneelementinput', 'opennlp.tools.util.spantest@testlength', 'opennlp.tools.util.spantest@testgetend', 'opennlp.tools.util.spantest@testcontainsint', 'opennlp.tools.util.spantest@testcomparetoequalsdifftype1', 'opennlp.tools.util.spantest@testgetstart', 'opennlp.tools.util.versiontest@testparseinvalidversion', 'opennlp.tools.util.beamsearchtest@testbestsequencezerolengthinput', 'opennlp.tools.util.spantest@testtostring', 'opennlp.tools.util.eval.crossvalidationpartitionertest@testemptydataset', 'opennlp.tools.util.spantest@testtrimwhitespacespan', 'opennlp.tools.util.spantest@testcontainswithhigherintersect', 'opennlp.tools.util.stringlisttest@testgettoken', 'opennlp.tools.util.spantest@testcomparetolower', 'opennlp.tools.util.versiontest@testparsesnapshot', 'opennlp.tools.util.featuregen.windowfeaturegeneratortest@testwindowatendofsentence', 'opennlp.tools.util.spantest@testcomparetohigher', 'opennlp.tools.util.spantest@testequals', 'opennlp.tools.util.stringutiltest@testtolowercase', 'opennlp.tools.util.spantest@testcrosses', 'opennlp.tools.util.abstracteventstreamtest@teststandardcase', 'opennlp.tools.util.spantest@testcontainswithequal', 'opennlp.tools.util.eval.fmeasuretest@testempty', 'opennlp.tools.util.featuregen.cachedfeaturegeneratortest@testcachingofsentence', 'opennlp.tools.util.featuregen.stringpatterntest@testcontainshyphen', 'opennlp.tools.util.spantest@testintersects', 'opennlp.tools.util.featuregen.stringpatterntest@testisalldigit', 'opennlp.tools.util.featuregen.generatorfactorytest@testcreationwithunkownelement', 'opennlp.tools.util.eval.fmeasuretest@testmerge', 'opennlp.tools.util.beamsearchtest@testbestsequence', 'opennlp.tools.util.featuregen.cachedfeaturegeneratortest@testcacheclearaftersentencechange', 'opennlp.tools.util.featuregen.previousmapfeaturegeneratortest@testfeaturegeneration', 'opennlp.tools.util.featuregen.stringpatterntest@testisinitialcapitalletter', 'opennlp.tools.util.featuregen.windowfeaturegeneratortest@testforcorrectfeatures', 'opennlp.tools.util.featuregen.windowfeaturegeneratortest@testwindowsizeone', 'opennlp.tools.util.sequencetest@testaddmethod', 'opennlp.tools.util.spantest@testequalswithnull', 'opennlp.tools.util.spantest@testcomparetoequalssametype', 'opennlp.tools.util.spantest@testcontains', 'opennlp.tools.util.spantest@testhhashcode', 'opennlp.tools.util.eval.fmeasuretest@testperfect', 'opennlp.tools.util.eval.fmeasuretest@testrecall', 'opennlp.tools.util.stringutiltest@testisempty', 'opennlp.tools.util.eval.crossvalidationpartitionertest@testfailsafty', 'opennlp.tools.util.sequencetest@testcopyconstructor', 'opennlp.tools.util.featuregen.stringpatterntest@testisallletters']
+[TestDetails]
+opennlp.tools.util.spantest@testcomparetoequalsnulltype2;[4, 16];0
+opennlp.tools.util.eval.crossvalidationpartitionertest@test3foldcv;[1, 10, 13];0
+opennlp.tools.util.featuregen.generatorfactorytest@testcreationwihtsimpledescriptor;[5, 24, 28];0
+opennlp.tools.util.beamsearchtest@testbestsequenceoneelementinput;[6];0
+opennlp.tools.util.spantest@testlength;[4, 16];0
+opennlp.tools.util.spantest@testgetend;[4, 16];0
+opennlp.tools.util.spantest@testcontainsint;[4];0
+opennlp.tools.util.spantest@testcomparetoequalsdifftype1;[4, 16];0
+opennlp.tools.util.spantest@testgetstart;[4, 16];0
+opennlp.tools.util.versiontest@testparseinvalidversion;[18, 22];0
+opennlp.tools.util.beamsearchtest@testbestsequencezerolengthinput;[6];0
+opennlp.tools.util.spantest@testtostring;[4, 16];0
+opennlp.tools.util.eval.crossvalidationpartitionertest@testemptydataset;[1, 10, 13];0
+opennlp.tools.util.spantest@testtrimwhitespacespan;[4, 16, 23];1
+opennlp.tools.util.spantest@testcontainswithhigherintersect;[4, 16];0
+opennlp.tools.util.stringlisttest@testgettoken;[3, 17];0
+opennlp.tools.util.spantest@testcomparetolower;[4, 16];0
+opennlp.tools.util.versiontest@testparsesnapshot;[18, 22];0
+opennlp.tools.util.featuregen.windowfeaturegeneratortest@testwindowatendofsentence;[0, 8, 26];0
+opennlp.tools.util.spantest@testcomparetohigher;[4, 16];0
+opennlp.tools.util.spantest@testequals;[4, 16];0
+opennlp.tools.util.stringutiltest@testtolowercase;[12, 23];1
+opennlp.tools.util.spantest@testcrosses;[4, 16];0
+opennlp.tools.util.abstracteventstreamtest@teststandardcase;[13, 20];0
+opennlp.tools.util.spantest@testcontainswithequal;[4, 16];0
+opennlp.tools.util.eval.fmeasuretest@testempty;[9, 25];0
+opennlp.tools.util.featuregen.cachedfeaturegeneratortest@testcachingofsentence;[0, 5, 15, 19, 21];0
+opennlp.tools.util.featuregen.stringpatterntest@testcontainshyphen;[7, 27];0
+opennlp.tools.util.spantest@testintersects;[4, 16];0
+opennlp.tools.util.featuregen.stringpatterntest@testisalldigit;[7, 27];0
+opennlp.tools.util.featuregen.generatorfactorytest@testcreationwithunkownelement;[24, 28];0
+opennlp.tools.util.eval.fmeasuretest@testmerge;[9, 16, 25];0
+opennlp.tools.util.beamsearchtest@testbestsequence;[6];0
+opennlp.tools.util.featuregen.cachedfeaturegeneratortest@testcacheclearaftersentencechange;[0, 5, 15, 19, 21];0
+opennlp.tools.util.featuregen.previousmapfeaturegeneratortest@testfeaturegeneration;[11, 14];0
+opennlp.tools.util.featuregen.stringpatterntest@testisinitialcapitalletter;[7, 27];0
+opennlp.tools.util.featuregen.windowfeaturegeneratortest@testforcorrectfeatures;[0, 8, 26];0
+opennlp.tools.util.featuregen.windowfeaturegeneratortest@testwindowsizeone;[0, 8, 26];0
+opennlp.tools.util.sequencetest@testaddmethod;[2, 6];0
+opennlp.tools.util.spantest@testequalswithnull;[4, 16];0
+opennlp.tools.util.spantest@testcomparetoequalssametype;[4, 16];0
+opennlp.tools.util.spantest@testcontains;[4, 16];0
+opennlp.tools.util.spantest@testhhashcode;[4, 16];0
+opennlp.tools.util.eval.fmeasuretest@testperfect;[9, 16, 25];0
+opennlp.tools.util.eval.fmeasuretest@testrecall;[9, 16, 25];0
+opennlp.tools.util.stringutiltest@testisempty;[12, 23];1
+opennlp.tools.util.eval.crossvalidationpartitionertest@testfailsafty;[1, 10, 13];0
+opennlp.tools.util.sequencetest@testcopyconstructor;[2, 6];0
+opennlp.tools.util.featuregen.stringpatterntest@testisallletters;[7, 26, 27];0

@@ -1,0 +1,61 @@
+[Description]
+sample bug id 162 with bug_passing_probability = 0.05 with garnularity of files and bugged type most
+[Components names]
+[(0, 'org.apache.commons.io.byteordermark'), (1, 'org.apache.commons.io.endianutils'), (2, 'org.apache.commons.io.input.bominputstreamtest'), (3, 'org.apache.commons.io.input.charsequenceinputstreamtest'), (4, 'org.apache.commons.io.input.bominputstream'), (5, 'org.apache.commons.io.input.nullinputstreamtest'), (6, 'org.apache.commons.io.input.closeshieldinputstreamtest'), (7, 'org.apache.commons.io.input.nullreader'), (8, 'org.apache.commons.io.input.closeshieldinputstream'), (9, 'org.apache.commons.io.input.xmlstreamreaderexception'), (10, 'org.apache.commons.io.input.nullreadertest'), (11, 'org.apache.commons.io.input.tailer'), (12, 'org.apache.commons.io.input.proxyreadertest'), (13, 'org.apache.commons.io.input.tailertest'), (14, 'org.apache.commons.io.input.autocloseinputstream'), (15, 'org.apache.commons.io.charsets'), (16, 'org.apache.commons.io.input.teeinputstreamtest'), (17, 'org.apache.commons.io.input.charsequenceinputstream'), (18, 'org.apache.commons.io.input.reversedlinesfilereader'), (19, 'org.apache.commons.io.input.teeinputstream'), (20, 'org.apache.commons.io.input.swappeddatainputstream'), (21, 'org.apache.commons.io.input.reversedlinesfilereadertestsimple'), (22, 'org.apache.commons.io.input.swappeddatainputstreamtest'), (23, 'org.apache.commons.io.input.proxyinputstream'), (24, 'org.apache.commons.io.input.countinginputstreamtest'), (25, 'org.apache.commons.io.fileutils'), (26, 'org.apache.commons.io.input.readerinputstreamtest'), (27, 'org.apache.commons.io.input.xmlstreamreaderutilitiestest'), (28, 'org.apache.commons.io.input.charsequencereader'), (29, 'org.apache.commons.io.input.nullinputstream'), (30, 'org.apache.commons.io.input.closedinputstream'), (31, 'org.apache.commons.io.input.charsequencereadertest'), (32, 'org.apache.commons.io.input.xmlstreamreadertest'), (33, 'org.apache.commons.io.input.closedinputstreamtest'), (34, 'org.apache.commons.io.input.brokeninputstreamtest'), (35, 'org.apache.commons.io.input.readerinputstream'), (36, 'org.apache.commons.io.input.autocloseinputstreamtest'), (37, 'org.apache.commons.io.filenameutils'), (38, 'org.apache.commons.io.input.xmlstreamreader'), (39, 'org.apache.commons.io.input.countinginputstream'), (40, 'org.apache.commons.io.input.brokeninputstream')]
+[Priors]
+[0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01]
+[Bugs]
+[9, 27, 32, 38]
+[InitialTests]
+[u'org.apache.commons.io.input.nullinputstreamtest@testread', u'org.apache.commons.io.input.teeinputstreamtest@testreadtoarraywithoffset', u'org.apache.commons.io.input.nullinputstreamtest@testreadbytearray', u'org.apache.commons.io.input.bominputstreamtest@testreadsmall', u'org.apache.commons.io.input.xmlstreamreadertest@testrawnobomutf16be', u'org.apache.commons.io.input.xmlstreamreadertest@testrawbomutf16', u'org.apache.commons.io.input.charsequenceinputstreamtest@testlargeutf8withbufferedread', u'org.apache.commons.io.input.bominputstreamtest@testreadwithbominclude', u'org.apache.commons.io.input.brokeninputstreamtest@testreset', u'org.apache.commons.io.input.teeinputstreamtest@testmarkreset', u'org.apache.commons.io.input.countinginputstreamtest@testzerolength2', u'org.apache.commons.io.input.bominputstreamtest@testreadwithbom', u'org.apache.commons.io.input.charsequenceinputstreamtest@testreadzeroemptystring', u'org.apache.commons.io.input.readerinputstreamtest@testreadzero', u'org.apache.commons.io.input.xmlstreamreaderutilitiestest@testcalculaterawencodingstandard', u'org.apache.commons.io.input.countinginputstreamtest@testeof3', u'org.apache.commons.io.input.charsequencereadertest@testreadchararrayportion', u'org.apache.commons.io.input.bominputstreamtest@testmarkresetafterreadwithbom', u'org.apache.commons.io.input.bominputstreamtest@testreadempty', u'org.apache.commons.io.input.proxyreadertest@testnullcharbuffer', u'org.apache.commons.io.input.swappeddatainputstreamtest@testreaddouble', u'org.apache.commons.io.input.closedinputstreamtest@testread', u'org.apache.commons.io.input.charsequenceinputstreamtest@testlargeutf8withsinglebyteread', u'org.apache.commons.io.input.charsequencereadertest@testmark', u'org.apache.commons.io.input.readerinputstreamtest@testcharsetmismatchinfiniteloop', u'org.apache.commons.io.input.xmlstreamreaderutilitiestest@testcontenttypeencoding', u'org.apache.commons.io.input.bominputstreamtest@testlargebufferwithbom', u'org.apache.commons.io.input.bominputstreamtest@testclose', u'org.apache.commons.io.input.bominputstreamtest@testskipwithoutbom', u'org.apache.commons.io.input.brokeninputstreamtest@testclose', u'org.apache.commons.io.input.charsequencereadertest@testclose', u'org.apache.commons.io.input.closeshieldinputstreamtest@testclose', u'org.apache.commons.io.input.bominputstreamtest@testskipwithbom', u'org.apache.commons.io.input.teeinputstreamtest@testreadeverything', u'org.apache.commons.io.input.bominputstreamtest@testreadwithoutbom', u'org.apache.commons.io.input.countinginputstreamtest@testzerolength1', u'org.apache.commons.io.input.swappeddatainputstreamtest@testreadunsignedbyte', u'org.apache.commons.io.input.teeinputstreamtest@testskip', u'org.apache.commons.io.input.bominputstreamtest@testsupportcode', u'org.apache.commons.io.input.swappeddatainputstreamtest@testreadshort', u'org.apache.commons.io.input.swappeddatainputstreamtest@testreadutf', u'org.apache.commons.io.input.autocloseinputstreamtest@testread', u'org.apache.commons.io.input.proxyreadertest@testnullchararray', u'org.apache.commons.io.input.xmlstreamreaderutilitiestest@testcalculaterawencodingadditonalkutf16', u'org.apache.commons.io.input.tailertest@testtailereof', u'org.apache.commons.io.input.nullreadertest@testmarkandreset', u'org.apache.commons.io.input.bominputstreamtest@testreadtwicewithoutbom', u'org.apache.commons.io.input.reversedlinesfilereadertestsimple@testunsupportedencodingbig5', u'org.apache.commons.io.input.xmlstreamreadertest@testrawnobomcp1047', u'org.apache.commons.io.input.swappeddatainputstreamtest@testskipbytes']
+[TestDetails]
+org.apache.commons.io.input.nullinputstreamtest@testread;[5, 29];0
+org.apache.commons.io.input.teeinputstreamtest@testreadtoarraywithoffset;[16];0
+org.apache.commons.io.input.nullinputstreamtest@testreadbytearray;[5, 29];0
+org.apache.commons.io.input.bominputstreamtest@testreadsmall;[0, 2, 4];0
+org.apache.commons.io.input.xmlstreamreadertest@testrawnobomutf16be;[0, 4, 32, 38];1
+org.apache.commons.io.input.xmlstreamreadertest@testrawbomutf16;[0, 4, 32, 38];1
+org.apache.commons.io.input.charsequenceinputstreamtest@testlargeutf8withbufferedread;[3];0
+org.apache.commons.io.input.bominputstreamtest@testreadwithbominclude;[0, 2, 4];0
+org.apache.commons.io.input.brokeninputstreamtest@testreset;[34, 40];0
+org.apache.commons.io.input.teeinputstreamtest@testmarkreset;[16, 19, 23];0
+org.apache.commons.io.input.countinginputstreamtest@testzerolength2;[24, 39];0
+org.apache.commons.io.input.bominputstreamtest@testreadwithbom;[0, 2, 4];0
+org.apache.commons.io.input.charsequenceinputstreamtest@testreadzeroemptystring;[3, 17];0
+org.apache.commons.io.input.readerinputstreamtest@testreadzero;[26, 35];0
+org.apache.commons.io.input.xmlstreamreaderutilitiestest@testcalculaterawencodingstandard;[0, 4, 9, 27, 38];1
+org.apache.commons.io.input.countinginputstreamtest@testeof3;[24, 39];0
+org.apache.commons.io.input.charsequencereadertest@testreadchararrayportion;[28, 31];0
+org.apache.commons.io.input.bominputstreamtest@testmarkresetafterreadwithbom;[0, 2, 4, 23];0
+org.apache.commons.io.input.bominputstreamtest@testreadempty;[0, 2, 4];0
+org.apache.commons.io.input.proxyreadertest@testnullcharbuffer;[12];0
+org.apache.commons.io.input.swappeddatainputstreamtest@testreaddouble;[1, 20, 22];0
+org.apache.commons.io.input.closedinputstreamtest@testread;[30, 33];0
+org.apache.commons.io.input.charsequenceinputstreamtest@testlargeutf8withsinglebyteread;[3];0
+org.apache.commons.io.input.charsequencereadertest@testmark;[28, 31];0
+org.apache.commons.io.input.readerinputstreamtest@testcharsetmismatchinfiniteloop;[26, 35];0
+org.apache.commons.io.input.xmlstreamreaderutilitiestest@testcontenttypeencoding;[27, 38];1
+org.apache.commons.io.input.bominputstreamtest@testlargebufferwithbom;[0, 2, 4];0
+org.apache.commons.io.input.bominputstreamtest@testclose;[2, 23];0
+org.apache.commons.io.input.bominputstreamtest@testskipwithoutbom;[0, 2, 4];0
+org.apache.commons.io.input.brokeninputstreamtest@testclose;[34, 40];0
+org.apache.commons.io.input.charsequencereadertest@testclose;[28, 31];0
+org.apache.commons.io.input.closeshieldinputstreamtest@testclose;[6, 8, 23, 30];0
+org.apache.commons.io.input.bominputstreamtest@testskipwithbom;[0, 2, 4];0
+org.apache.commons.io.input.teeinputstreamtest@testreadeverything;[16, 19, 23];0
+org.apache.commons.io.input.bominputstreamtest@testreadwithoutbom;[0, 2, 4];0
+org.apache.commons.io.input.countinginputstreamtest@testzerolength1;[23, 24, 39];0
+org.apache.commons.io.input.swappeddatainputstreamtest@testreadunsignedbyte;[20, 22];0
+org.apache.commons.io.input.teeinputstreamtest@testskip;[16, 19, 23];0
+org.apache.commons.io.input.bominputstreamtest@testsupportcode;[2];0
+org.apache.commons.io.input.swappeddatainputstreamtest@testreadshort;[1, 20, 22];0
+org.apache.commons.io.input.swappeddatainputstreamtest@testreadutf;[20, 22];0
+org.apache.commons.io.input.autocloseinputstreamtest@testread;[14, 23, 36];0
+org.apache.commons.io.input.proxyreadertest@testnullchararray;[7, 12];0
+org.apache.commons.io.input.xmlstreamreaderutilitiestest@testcalculaterawencodingadditonalkutf16;[0, 4, 9, 27, 38];1
+org.apache.commons.io.input.tailertest@testtailereof;[11, 13, 25, 37];0
+org.apache.commons.io.input.nullreadertest@testmarkandreset;[7, 10];0
+org.apache.commons.io.input.bominputstreamtest@testreadtwicewithoutbom;[0, 2, 4];0
+org.apache.commons.io.input.reversedlinesfilereadertestsimple@testunsupportedencodingbig5;[15, 18, 21];0
+org.apache.commons.io.input.xmlstreamreadertest@testrawnobomcp1047;[0, 4, 32, 38];1
+org.apache.commons.io.input.swappeddatainputstreamtest@testskipbytes;[1, 20, 22];0

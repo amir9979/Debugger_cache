@@ -1,0 +1,61 @@
+[Description]
+sample bug id 16 with bug_passing_probability = 0.05 with garnularity of files and bugged type all
+[Components names]
+[(0, 'org.apache.commons.io.fileutilstestcase'), (1, 'org.apache.commons.io.byteordermark'), (2, 'org.apache.commons.io.fileutilsfilenewertestcase'), (3, 'org.apache.commons.io.endianutils'), (4, 'org.apache.commons.io.lineiterator'), (5, 'org.apache.commons.io.input.xmlstreamreader'), (6, 'org.apache.commons.io.input.bominputstream'), (7, 'org.apache.commons.io.monitor.filealterationobservertestcase'), (8, 'org.apache.commons.io.input.nullinputstreamtest'), (9, 'org.apache.commons.io.byteordermarktestcase'), (10, 'org.apache.commons.io.filefilter.andfilefilter'), (11, 'org.apache.commons.io.endianutilstest'), (12, 'org.apache.commons.io.filefilter.agefilefilter'), (13, 'org.apache.commons.io.input.bominputstreamtest'), (14, 'org.apache.commons.io.fileutilscleandirectorytestcase'), (15, 'org.apache.commons.io.charsetstestcase'), (16, 'org.apache.commons.io.comparator.compositefilecomparator'), (17, 'org.apache.commons.io.filenameutilstestcase'), (18, 'org.apache.commons.io.output.stringbuilderwritertest'), (19, 'org.apache.commons.io.charsets'), (20, 'org.apache.commons.io.comparator.namefilecomparator'), (21, 'org.apache.commons.io.output.xmlstreamwritertest'), (22, 'org.apache.commons.io.lineiteratortestcase'), (23, 'org.apache.commons.io.ioutilstestcase'), (24, 'org.apache.commons.io.output.xmlstreamwriter'), (25, 'org.apache.commons.io.iocase'), (26, 'org.apache.commons.io.ioutils'), (27, 'org.apache.commons.io.monitor.filealterationobserver'), (28, 'org.apache.commons.io.fileutils'), (29, 'org.apache.commons.io.filefilter.prefixfilefilter'), (30, 'org.apache.commons.io.output.stringbuilderwriter'), (31, 'org.apache.commons.io.filefilter.abstractfilefilter'), (32, 'org.apache.commons.io.input.xmlstreamreaderutilitiestest'), (33, 'org.apache.commons.io.comparator.compositefilecomparatortest'), (34, 'org.apache.commons.io.monitor.collectionfilelistener'), (35, 'org.apache.commons.io.input.swappeddatainputstreamtest'), (36, 'org.apache.commons.io.input.xmlstreamreadertest'), (37, 'org.apache.commons.io.filefilter.namefilefilter'), (38, 'org.apache.commons.io.monitor.fileentry'), (39, 'org.apache.commons.io.directorywalkertestcasejava4'), (40, 'org.apache.commons.io.comparator.abstractfilecomparator'), (41, 'org.apache.commons.io.input.charsequencereader'), (42, 'org.apache.commons.io.input.proxyinputstream'), (43, 'org.apache.commons.io.filefilter.suffixfilefilter'), (44, 'org.apache.commons.io.directorywalker'), (45, 'org.apache.commons.io.hexdumptest'), (46, 'org.apache.commons.io.hexdump'), (47, 'org.apache.commons.io.output.bytearrayoutputstream'), (48, 'org.apache.commons.io.input.charsequencereadertest'), (49, 'org.apache.commons.io.filefilter.directoryfilefilter'), (50, 'org.apache.commons.io.filefilter.hiddenfilefilter'), (51, 'org.apache.commons.io.input.nullinputstream'), (52, 'org.apache.commons.io.input.swappeddatainputstream'), (53, 'org.apache.commons.io.filefilter.filefilterutils'), (54, 'org.apache.commons.io.filenameutils'), (55, 'org.apache.commons.io.filefilter.notfilefilter'), (56, 'org.apache.commons.io.filefilter.filefilefilter'), (57, 'org.apache.commons.io.filefilter.orfilefilter'), (58, 'org.apache.commons.io.filefilter.filefiltertestcase'), (59, 'org.apache.commons.io.comparator.comparatorabstracttestcase'), (60, 'org.apache.commons.io.monitor.abstractmonitortestcase')]
+[Priors]
+[0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01]
+[Bugs]
+[5, 32, 36]
+[InitialTests]
+[u'org.apache.commons.io.lineiteratortestcase@testonelines', u'org.apache.commons.io.fileutilstestcase@testdecodeurl', u'org.apache.commons.io.monitor.filealterationobservertestcase@testdirectory', u'org.apache.commons.io.input.swappeddatainputstreamtest@testreadline', u'org.apache.commons.io.filenameutilstestcase@testisextension', u'org.apache.commons.io.filefilter.filefiltertestcase@testdirectory', u'org.apache.commons.io.filefilter.filefiltertestcase@testmagicnumberfilefiltervalidation', u'org.apache.commons.io.input.xmlstreamreadertest@testrawbomutf16', u'org.apache.commons.io.charsetstestcase@testtocharset', u'org.apache.commons.io.input.bominputstreamtest@testemptybufferwithoutbom', u'org.apache.commons.io.endianutilstest@testsymmetry', u'org.apache.commons.io.ioutilstestcase@teststringtooutputstream', u'org.apache.commons.io.fileutilstestcase@testgettempdirectory', u'org.apache.commons.io.hexdumptest@testdump', u'org.apache.commons.io.byteordermarktestcase@testgetbytes', u'org.apache.commons.io.endianutilstest@testswapfloat', u'org.apache.commons.io.ioutilstestcase@testinputstreamtobufferedinputstream', u'org.apache.commons.io.comparator.compositefilecomparatortest@testconstructoriterablenull', u'org.apache.commons.io.endianutilstest@testswapshort', u'org.apache.commons.io.ioutilstestcase@testurltostringnoencoding', u'org.apache.commons.io.fileutilscleandirectorytestcase@testdeletesregular', u'org.apache.commons.io.output.stringbuilderwritertest@testappendconstructnull', u'org.apache.commons.io.input.bominputstreamtest@testgetbomfirstthenread', u'org.apache.commons.io.charsetstestcase@testusascii', u'org.apache.commons.io.ioutilstestcase@testnoskip', u'org.apache.commons.io.filefilter.filefiltertestcase@testprefixcaseinsensitive', u'org.apache.commons.io.filefilter.filefiltertestcase@testnullfilters', u'org.apache.commons.io.ioutilstestcase@testuritostringnullencoding', u'org.apache.commons.io.lineiteratortestcase@testnextlineonlydefaultencoding', u'org.apache.commons.io.charsetstestcase@testutf16le', u'org.apache.commons.io.input.xmlstreamreadertest@testrawcontent', u'org.apache.commons.io.output.xmlstreamwritertest@testdefaultencoding', u'org.apache.commons.io.fileutilsfilenewertestcase@testisfilenewernodate', u'org.apache.commons.io.ioutilstestcase@testreadstream', u'org.apache.commons.io.input.swappeddatainputstreamtest@testreadchar', u'org.apache.commons.io.output.xmlstreamwritertest@testutf16beencoding', u'org.apache.commons.io.filefilter.filefiltertestcase@testensuretestcoverage', u'org.apache.commons.io.fileutilstestcase@testcopyurltofilewithtimeout', u'org.apache.commons.io.ioutilstestcase@testcharskip', u'org.apache.commons.io.input.charsequencereadertest@testskip', u'org.apache.commons.io.directorywalkertestcasejava4@testfilter', u'org.apache.commons.io.charsetstestcase@testutf16be', u'org.apache.commons.io.filefilter.filefiltertestcase@testagefilter', u'org.apache.commons.io.ioutilstestcase@testurltostringnullencoding', u'org.apache.commons.io.fileutilscleandirectorytestcase@testdeletesnested', u'org.apache.commons.io.lineiteratortestcase@testnextlineonlyutf8encoding', u'org.apache.commons.io.input.swappeddatainputstreamtest@testreadbyte', u'org.apache.commons.io.input.bominputstreamtest@testleadingnonbomsingleread', u'org.apache.commons.io.input.nullinputstreamtest@testmarkandreset', u'org.apache.commons.io.input.xmlstreamreaderutilitiestest@testcontenttypemime']
+[TestDetails]
+org.apache.commons.io.lineiteratortestcase@testonelines;[4, 19, 22, 26, 28, 54];0
+org.apache.commons.io.fileutilstestcase@testdecodeurl;[0, 28, 54];0
+org.apache.commons.io.monitor.filealterationobservertestcase@testdirectory;[7, 10, 20, 25, 27, 28, 34, 38, 43, 49, 50, 53, 54, 55, 56, 57, 60];0
+org.apache.commons.io.input.swappeddatainputstreamtest@testreadline;[35, 52];0
+org.apache.commons.io.filenameutilstestcase@testisextension;[17, 28, 54];0
+org.apache.commons.io.filefilter.filefiltertestcase@testdirectory;[28, 31, 49, 54, 58];0
+org.apache.commons.io.filefilter.filefiltertestcase@testmagicnumberfilefiltervalidation;[28, 54, 58];0
+org.apache.commons.io.input.xmlstreamreadertest@testrawbomutf16;[1, 5, 6, 36];1
+org.apache.commons.io.charsetstestcase@testtocharset;[15, 19];0
+org.apache.commons.io.input.bominputstreamtest@testemptybufferwithoutbom;[1, 6, 13];0
+org.apache.commons.io.endianutilstest@testsymmetry;[3, 11];0
+org.apache.commons.io.ioutilstestcase@teststringtooutputstream;[23, 28, 30, 54];0
+org.apache.commons.io.fileutilstestcase@testgettempdirectory;[0, 28, 54];0
+org.apache.commons.io.hexdumptest@testdump;[45, 46, 47];0
+org.apache.commons.io.byteordermarktestcase@testgetbytes;[1, 9];0
+org.apache.commons.io.endianutilstest@testswapfloat;[3, 11];0
+org.apache.commons.io.ioutilstestcase@testinputstreamtobufferedinputstream;[23, 26, 28, 47, 54];0
+org.apache.commons.io.comparator.compositefilecomparatortest@testconstructoriterablenull;[16, 28, 33, 40, 54, 59];0
+org.apache.commons.io.endianutilstest@testswapshort;[3, 11];0
+org.apache.commons.io.ioutilstestcase@testurltostringnoencoding;[19, 23, 28, 30, 54];0
+org.apache.commons.io.fileutilscleandirectorytestcase@testdeletesregular;[14, 28, 54];0
+org.apache.commons.io.output.stringbuilderwritertest@testappendconstructnull;[18, 30];0
+org.apache.commons.io.input.bominputstreamtest@testgetbomfirstthenread;[1, 6, 13];0
+org.apache.commons.io.charsetstestcase@testusascii;[15];0
+org.apache.commons.io.ioutilstestcase@testnoskip;[23, 28, 54];0
+org.apache.commons.io.filefilter.filefiltertestcase@testprefixcaseinsensitive;[25, 28, 29, 31, 54, 58];0
+org.apache.commons.io.filefilter.filefiltertestcase@testnullfilters;[28, 53, 54, 58];0
+org.apache.commons.io.ioutilstestcase@testuritostringnullencoding;[23];0
+org.apache.commons.io.lineiteratortestcase@testnextlineonlydefaultencoding;[4, 19, 22, 26, 28, 54];0
+org.apache.commons.io.charsetstestcase@testutf16le;[15];0
+org.apache.commons.io.input.xmlstreamreadertest@testrawcontent;[1, 5, 6, 30, 36, 42];1
+org.apache.commons.io.output.xmlstreamwritertest@testdefaultencoding;[21, 24];0
+org.apache.commons.io.fileutilsfilenewertestcase@testisfilenewernodate;[2];0
+org.apache.commons.io.ioutilstestcase@testreadstream;[23, 28, 54];0
+org.apache.commons.io.input.swappeddatainputstreamtest@testreadchar;[3, 35, 52];0
+org.apache.commons.io.output.xmlstreamwritertest@testutf16beencoding;[21, 24];0
+org.apache.commons.io.filefilter.filefiltertestcase@testensuretestcoverage;[28, 54, 58];0
+org.apache.commons.io.fileutilstestcase@testcopyurltofilewithtimeout;[0, 26, 28, 54];0
+org.apache.commons.io.ioutilstestcase@testcharskip;[23, 26, 28, 54];0
+org.apache.commons.io.input.charsequencereadertest@testskip;[41, 48];0
+org.apache.commons.io.directorywalkertestcasejava4@testfilter;[25, 37, 39, 44, 57];0
+org.apache.commons.io.charsetstestcase@testutf16be;[15];0
+org.apache.commons.io.filefilter.filefiltertestcase@testagefilter;[12, 28, 31, 53, 54, 58];0
+org.apache.commons.io.ioutilstestcase@testurltostringnullencoding;[23];0
+org.apache.commons.io.fileutilscleandirectorytestcase@testdeletesnested;[14, 28, 54];0
+org.apache.commons.io.lineiteratortestcase@testnextlineonlyutf8encoding;[4, 19, 22, 26, 28, 54];0
+org.apache.commons.io.input.swappeddatainputstreamtest@testreadbyte;[35, 52];0
+org.apache.commons.io.input.bominputstreamtest@testleadingnonbomsingleread;[1, 6, 13];0
+org.apache.commons.io.input.nullinputstreamtest@testmarkandreset;[8, 51];0
+org.apache.commons.io.input.xmlstreamreaderutilitiestest@testcontenttypemime;[5, 32];1
