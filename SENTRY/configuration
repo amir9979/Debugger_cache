@@ -1,0 +1,6 @@
+workingDir=C:\amirelm\projects_minors\SENTRY
+git=C:\amirelm\repos\SENTRY
+issue_tracker_product_name=SENTRY
+issue_tracker_url=https://issues.apache.org/jira
+issue_tracker=jira
+vers=(release-1.0.0,release-1.1.0,release-1.4.0,release-1.7.0,release-1.8.0,release-2.0.0,release-2.1.0)

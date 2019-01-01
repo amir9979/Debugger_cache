@@ -1,0 +1,6 @@
+workingDir=C:\amirelm\projects_minors\KAFKA
+git=C:\amirelm\repos\KAFKA
+issue_tracker_product_name=KAFKA
+issue_tracker_url=https://issues.apache.org/jira
+issue_tracker=jira
+vers=(0.8.0,0.8.1.0,0.8.2.0,0.9.0.0,0.10.0.0,0.10.1.0,0.10.2.0,0.11.0.0,1.0.0,1.1.0,2.0.0,2.1.0)

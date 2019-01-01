@@ -1,0 +1,6 @@
+workingDir=C:\amirelm\projects_minors\DRILL
+git=C:\amirelm\repos\DRILL
+issue_tracker_product_name=DRILL
+issue_tracker_url=https://issues.apache.org/jira
+issue_tracker=jira
+vers=(0.9.0,drill-1.1.0,archive/DRILL-3450,drill-1.4.0)
