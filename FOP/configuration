@@ -1,0 +1,6 @@
+workingDir=C:\amirelm\projects_minors\FOP
+git=C:\amirelm\repos\FOP
+issue_tracker_product_name=FOP
+issue_tracker_url=https://issues.apache.org/jira
+issue_tracker=jira
+vers=(RELEASE_0_12_0,fop-0_17_0,fop-0_20_0,batik-1_6,fop-1_0,fop-1_1,fop-2_0,fop-2_1,fop-2_2,fop-2_3)
